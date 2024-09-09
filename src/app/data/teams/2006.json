@@ -1,0 +1,38 @@
+{
+    "id": "2006",
+    "name": "Miami Valley Express 2006",
+    "players": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "number": "12",
+        "position": "Pitcher",
+        "height": "6'2\"",
+        "bats": "Right",
+        "throws": "Right",
+        "town": "Springboro",
+        "school": "Springboro High",
+        "gradYear": 2024,
+        "gpa": 3.8,
+        "status": "Active",
+        "imageUrl": "assets/players/john-doe.jpg"
+      }
+    ],
+    "schedule": [
+      {
+        "date": "2023-06-15",
+        "sanction": "USSSA",
+        "eventName": "Summer Classic",
+        "location": "Dayton, OH"
+      }
+    ],
+    "coaches": [
+      {
+        "name": "Mike Johnson",
+        "position": "Head Coach",
+        "email": "mike@example.com",
+        "phone": "555-123-4567",
+        "imageUrl": "assets/coaches/mike-johnson.jpg"
+      }
+    ]
+  }
