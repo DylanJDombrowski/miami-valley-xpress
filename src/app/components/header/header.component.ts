@@ -26,7 +26,7 @@ import { RouterModule } from '@angular/router';
       <!-- Logo and title -->
       <div class="container mx-auto py-4 px-4">
         <div class="flex items-center space-x-4">
-          <img src="mvxLogo1.png" alt="MVX Logo" class="h-16" />
+          <img src="assets/mvxLogo2.png" alt="MVX Logo" class="h-16" />
           <div>
             <h1 class="text-5xl uppercase font-bold text-primary">
               Miami Valley Xpress
