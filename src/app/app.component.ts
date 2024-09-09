@@ -14,5 +14,5 @@ import { FooterComponent } from './components/footer/footer.component';
   `,
 })
 export class AppComponent {
-  title = 'Softball Site';
+  title = 'Miami Valley Xpress';
 }

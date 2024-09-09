@@ -1,0 +1,38 @@
+{
+  "id": "2006",
+  "name": "Miami Valley Xpress 2006",
+  "teamImageUrl": "assets/images/teams/2006-team.jpg",
+  "players": [
+    {
+      "name": "Sam Wolfe",
+      "position": "C/3B",
+      "height": "5'3",
+      "bats": "R",
+      "throws": "R",
+      "town": "New Carlise, OH",
+      "school": "Northwestern HS",
+      "gradYear": 2026,
+      "gpa": 3.6,
+      "status": "Uncommitted",
+      "twitter": "https://twitter.com/samwolfe",
+      "imageUrl": "assets/images/players/sam-wolfe.jpg"
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2023-09-15",
+      "sanction": "USA",
+      "eventName": "Fall Classic",
+      "location": "Dayton, OH"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Alexis Harvey",
+      "position": "Head Coach",
+      "email": "alexisharvey033@gmail.com",
+      "phone": "937-212-4181",
+      "imageUrl": "assets/images/coaches/alexis-harvey.jpg"
+    }
+  ]
+}
