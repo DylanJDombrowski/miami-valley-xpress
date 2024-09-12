@@ -39,42 +39,47 @@ import { RouterModule } from '@angular/router';
       </div>
 
       <!-- Navigation -->
-      <nav class="bg-primary text-white py-2">
+      <nav class="bg-[#161659] text-white py-2">
         <div class="container mx-auto">
           <ul class="flex justify-center space-x-6">
-            <li><a routerLink="/" class="hover:text-accent">Home</a></li>
+            <li><a routerLink="/" class="hover:text-[#D29C9C]">Home</a></li>
             <li class="relative group">
-              <a class="hover:text-accent cursor-pointer">Express Teams</a>
-              <ul class="absolute hidden group-hover:block bg-primary p-2 z-10">
-                <li *ngFor="let team of teams">
+              <a class="hover:text-[#D29C9C] cursor-pointer">Xpress Teams</a>
+              <ul
+                class="absolute hidden group-hover:block bg-[#161659] p-2 z-10"
+              >
+                <li *ngFor="let year of teamYears">
                   <a
-                    [routerLink]="['/team', team.id]"
-                    class="hover:text-accent block py-1"
-                    >{{ team.name }}</a
+                    [routerLink]="['/team', year]"
+                    class="hover:text-[#D29C9C] block py-1 whitespace-nowrap"
                   >
+                    Miami Valley Xpress {{ year }}
+                  </a>
                 </li>
               </ul>
             </li>
             <li>
-              <a routerLink="/alumni" class="hover:text-accent">Alumni</a>
+              <a routerLink="/alumni" class="hover:text-[#D29C9C]"
+                >Xpress Alumni</a
+              >
             </li>
             <li>
-              <a routerLink="/on-the-field" class="hover:text-accent"
+              <a routerLink="/on-the-field" class="hover:text-[#D29C9C]"
                 >On The Field</a
               >
             </li>
             <li>
-              <a routerLink="/all-aboard" class="hover:text-accent"
+              <a routerLink="/all-aboard" class="hover:text-[#D29C9C]"
                 >All Aboard</a
               >
             </li>
             <li>
-              <a routerLink="/extended-team" class="hover:text-accent"
-                >Extended Team</a
+              <a routerLink="/extended-team" class="hover:text-[#D29C9C]"
+                >Our Extended Team</a
               >
             </li>
             <li>
-              <a routerLink="/xpress-social" class="hover:text-accent"
+              <a routerLink="/xpress-social" class="hover:text-[#D29C9C]"
                 >Xpress Social</a
               >
             </li>
@@ -86,10 +91,5 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  teams = [
-    { id: '2006', name: 'MVX 2006' },
-    { id: '2007', name: 'MVX 2007' },
-    { id: '2008', name: 'MVX 2008' },
-    // Add more teams as needed
-  ];
+  teamYears: number[] = Array.from({ length: 9 }, (_, i) => 2014 - i);
 }

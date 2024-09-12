@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../../services/data.service';
 import { Team } from '../../models/team.model';
 
 @Component({
   selector: 'app-team',
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './team.component.html',
   styleUrls: ['./team.component.scss'],
 })
