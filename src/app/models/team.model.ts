@@ -8,16 +8,16 @@ export interface Team {
 }
 
 export interface Player {
-  name: string;
-  position: string;
-  height: string;
-  bats: string;
-  throws: string;
-  town: string;
-  school: string;
-  gradYear: number;
-  gpa: number;
-  status: string;
+  name?: string;
+  position?: string;
+  height?: string;
+  bats?: string;
+  throws?: string;
+  town?: string;
+  school?: string;
+  gradYear?: number;
+  gpa?: number;
+  status?: string;
   twitter?: string;
   imageUrl: string;
 }

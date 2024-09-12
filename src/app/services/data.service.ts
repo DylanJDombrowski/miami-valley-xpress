@@ -7,10 +7,11 @@ import { Team } from '../models/team.model';
   providedIn: 'root',
 })
 export class DataService {
+  private baseUrl = 'assets/data/teams/';
   constructor(private http: HttpClient) {}
 
   getTeam(id: string): Observable<Team> {
-    return this.http.get<Team>(`assets/data/teams/${id}.json`);
+    return this.http.get<Team>(`${this.baseUrl}${id}.json`);
   }
 
   getAllTeams(): Observable<{ id: string; name: string }[]> {

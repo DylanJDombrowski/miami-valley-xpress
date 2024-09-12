@@ -9,7 +9,7 @@ import { XpressSocialComponent } from './pages/xpress-social/xpress-social.compo
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: ':id', component: TeamComponent },
+  { path: 'team/:id', component: TeamComponent },
   { path: 'alumni', component: AlumniComponent },
   { path: 'on-the-field', component: OnTheFieldComponent },
   { path: 'all-aboard', component: AllAboardComponent },

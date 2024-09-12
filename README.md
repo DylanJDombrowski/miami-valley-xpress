@@ -1,11 +1,3 @@
-├─ angular.json
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.js
-├─ public
-│ └─ favicon.ico
-├─ README.md
-├─ server.ts
 ├─ src
 │ ├─ app
 │ │ ├─ app.component.html
@@ -16,6 +8,7 @@
 │ │ ├─ app.config.ts
 │ │ ├─ app.routes.ts
 │ │ ├─ components
+│ │ │ ├─ TeamComponent.component.ts
 │ │ │ ├─ blog-post
 │ │ │ │ ├─ blog-post.component.html
 │ │ │ │ ├─ blog-post.component.scss
@@ -27,9 +20,7 @@
 │ │ │ │ ├─ coach-card.component.spec.ts
 │ │ │ │ └─ coach-card.component.ts
 │ │ │ ├─ footer
-│ │ │ │ ├─ footer.component.html
 │ │ │ │ ├─ footer.component.scss
-│ │ │ │ ├─ footer.component.spec.ts
 │ │ │ │ └─ footer.component.ts
 │ │ │ ├─ header
 │ │ │ │ ├─ header.component.scss
@@ -39,12 +30,11 @@
 │ │ │ │ ├─ player-card.component.scss
 │ │ │ │ ├─ player-card.component.spec.ts
 │ │ │ │ └─ player-card.component.ts
-│ │ │ ├─ schedule-table
-│ │ │ │ ├─ schedule-table.component.html
-│ │ │ │ ├─ schedule-table.component.scss
-│ │ │ │ ├─ schedule-table.component.spec.ts
-│ │ │ │ └─ schedule-table.component.ts
-│ │ │ └─ TeamComponent.component.ts
+│ │ │ └─ schedule-table
+│ │ │ ├─ schedule-table.component.html
+│ │ │ ├─ schedule-table.component.scss
+│ │ │ ├─ schedule-table.component.spec.ts
+│ │ │ └─ schedule-table.component.ts
 │ │ ├─ models
 │ │ │ ├─ blog-post.model.ts
 │ │ │ └─ team.model.ts
@@ -92,10 +82,11 @@
 │ │ │ ├─ blog-posts.json
 │ │ │ ├─ extended-teams.json
 │ │ │ ├─ teams
-│ │ │ │ └─ 2006.json
+│ │ │ │ ├─ 2006.json
+│ │ │ │ └─ 2007.json
 │ │ │ └─ teams.json
-│ │ ├─ mvx-logo-2.png
-│ │ └─ mvxLogo1.png
+│ │ ├─ mvxLogo1.png
+│ │ └─ mvxLogo2.png
 │ ├─ index.html
 │ ├─ main.server.ts
 │ ├─ main.ts
