@@ -4,9 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-all-aboard',
   standalone: true,
   imports: [],
-  templateUrl: './all-aboard.component.html',
-  styleUrl: './all-aboard.component.scss'
+  template: ``,
+  styles: ``,
 })
-export class AllAboardComponent {
-
-}
+export class AllAboardComponent {}

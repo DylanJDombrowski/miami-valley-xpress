@@ -1,4 +1,83 @@
-/* You can add global styles to this file, and also import other style files */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --color-primary: #161659;
+  --color-secondary: #D29C9C;
+  --color-accent: #FF6B6B;
+  --color-background: #F8F8F8;
+  --color-text: #333333;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  @apply px-4 mx-auto;
+  max-width: 1200px;
+}
+
+/* Button styles */
+.btn {
+  @apply px-4 py-2 rounded font-semibold transition duration-300;
+}
+
+.btn-primary {
+  @apply bg-[#161659] text-white hover:bg-opacity-90;
+}
+
+.btn-secondary {
+  @apply bg-[#D29C9C] text-white hover:bg-opacity-90;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-lg;
+}
+
+/* Form styles */
+input, select, textarea {
+  @apply border border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-[#161659];
+}
+
+/* Table styles */
+table {
+  @apply w-full border-collapse;
+}
+
+th, td {
+  @apply border border-gray-300 px-4 py-2;
+}
+
+th {
+  @apply bg-[#161659] text-white font-semibold;
+}
+
+/* Utility classes */
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}

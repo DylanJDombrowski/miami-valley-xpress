@@ -1,10 +1,12 @@
 {
   "id": "2007",
   "name": "Miami Valley Xpress 2007",
-  "teamImageUrl": "../../../teams/2007-team.jpg",
+  "year": 2023,
+  "teamImageUrl": "",
   "players": [
     {
       "name": "Mac Walts",
+      "number": "00",
       "position": "OF/2B",
       "height": "5'8\"",
       "bats": "R",
@@ -15,10 +17,11 @@
       "gpa": 3.7,
       "status": null,
       "twitter": "@MacWalts",
-      "imageUrl": "../../../teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Allie Sheen",
+      "number": "2",
       "position": "Catcher/3rd/utility",
       "height": "5'6",
       "bats": "R",
@@ -29,10 +32,11 @@
       "gpa": 3.9,
       "status": null,
       "twitter": "twitter.com/sheenallie",
-      "imageUrl": "../../../teams/2007/players/allie-sheen.jpg"
+      "imageUrl": "assets/teams/2007/players/allie-sheen.jpg"
     },
     {
       "name": "Ella Dersham",
+      "number": "3",
       "position": "P/OF",
       "height": "5'9",
       "bats": "R",
@@ -43,11 +47,12 @@
       "gpa": 3.25,
       "status": null,
       "twitter": "twitter.com/dershamella03",
-      "imageUrl": "../../../teams/2007/players/ella-dersham.jpg"
+      "imageUrl": "assets/teams/2007/players/ella-dersham.jpg"
     },
     {
       "name": "Lilly Konen",
       "position": "OF/MI/3rd",
+      "number": "4",
       "height": "5'2\"",
       "bats": "R",
       "throws": "R",
@@ -57,11 +62,12 @@
       "gpa": 3.8,
       "status": null,
       "twitter": null,
-      "imageUrl": "../../../teams/2007/players/lilly-konen.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Olivia Basil",
       "position": "P",
+      "number": "7",
       "height": "5'6",
       "bats": "R",
       "throws": "R",
@@ -71,11 +77,12 @@
       "gpa": 3.95,
       "status": null,
       "twitter": "https://twitter.com/basil_olivia13",
-      "imageUrl": "../../../teams/2007/players/olivia-basil.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Meredith Pieratt",
       "position": "Pitcher, 1st & 3rd",
+      "number": "8",
       "height": "5'6",
       "bats": "R",
       "throws": "R",
@@ -85,11 +92,12 @@
       "gpa": 3.4,
       "status": null,
       "twitter": "twitter.com/meredithpieratt",
-      "imageUrl": "../../../teams/2007/players/meredith-pieratt.jpg"
+      "imageUrl": "assets/teams/2007/players/meredith-pieratt.jpg"
     },
     {
       "name": "Natalie Russell",
       "position": "2nd/OF/Utility",
+      "number": "13",
       "height": "5'6",
       "bats": "R",
       "throws": "R",
@@ -99,11 +107,12 @@
       "gpa": 3.6,
       "status": null,
       "twitter": "twitter.com/russelnatalie13",
-      "imageUrl": "../../../teams/2007/players/natalie-russell.jpg"
+      "imageUrl": "assets/teams/2007/players/natalie-russell.jpg"
     },
     {
       "name": "Emersyn Wise",
       "position": "MI/3rd",
+      "number": "15",
       "height": "5'6\"",
       "bats": "R",
       "throws": "R",
@@ -113,11 +122,12 @@
       "gpa": 3.8,
       "status": null,
       "twitter": null,
-      "imageUrl": "../../../teams/2007/players/emersyn-wise.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Leila Kim",
       "position": "OF/2B",
+      "number": "22",
       "height": "5'1",
       "bats": "L",
       "throws": "R",
@@ -127,11 +137,12 @@
       "gpa": 3.82,
       "status": null,
       "twitter": "twitter.com/leilakim07",
-      "imageUrl": "../../../teams/2007/players/kim.jpg"
+      "imageUrl": "assets/teams/2007/players/leila-kim.jpg"
     },
     {
       "name": "Kynadee Bode",
       "position": "P/1st/OF",
+      "number": "27",
       "height": "5'9\"",
       "bats": "L",
       "throws": "L",
@@ -141,11 +152,12 @@
       "gpa": 3.95,
       "status": null,
       "twitter": "@Kynadee_Bode00",
-      "imageUrl": "../../../teams/2007/players/kynadee-bode.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Sam Wolfe",
       "position": "C/3B",
+      "number": "33",
       "height": "5'3",
       "bats": "R",
       "throws": "R",
@@ -155,11 +167,12 @@
       "gpa": 3.6,
       "status": null,
       "twitter": "twitter.com/samwolfe1234",
-      "imageUrl": "../../../teams/2007/players/sam-wolfe.jpg"
+      "imageUrl": "assets/teams/2007/players/sam-wolfe.jpg"
     },
     {
       "name": "Amber Munoz",
       "position": "Shortstop",
+      "number": "44",
       "height": "5'6",
       "bats": "R",
       "throws": "R",
@@ -169,73 +182,68 @@
       "gpa": 4.1,
       "status": null,
       "twitter": "twitter.com/Munoz442",
-      "imageUrl": "../../../teams/2007/players/amber-munoz.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ],
   "schedule": [
     {
-      "date": "2023-05-20",
-      "sanction": "USSSA",
-      "eventName": "Five in the Spring",
-      "location": "Greenville, OH"
+      "date": "2023-09-16",
+      "sanction": "N/A (D1)",
+      "eventName": "Outlaw Friendlies",
+      "location": "Canfield, OH"
     },
     {
-      "date": "2023-05-27",
-      "sanction": "USSSA",
-      "eventName": "USSSA Memorial Challenge",
-      "location": "Harrison, OH"
+      "date": "2023-09-30",
+      "sanction": "N/A (D1)",
+      "eventName": "Outlaw Invitational",
+      "location": "Columbus, OH"
     },
     {
-      "date": "2023-06-02",
-      "sanction": "USSSA",
-      "eventName": "USSSA Strawberry Festival",
-      "location": "Troy, OH"
+      "date": "2023-10-07",
+      "sanction": "N/A (D1)",
+      "eventName": "Demarini Fall Brawl",
+      "location": "Columbus, OH"
     },
     {
-      "date": "2023-06-09",
-      "sanction": "USA",
-      "eventName": "Ashland Five Game Classic",
-      "location": "Ashland, OH"
+      "date": "2023-10-14",
+      "sanction": "N/A",
+      "eventName": "Laser Fall Showcase",
+      "location": "Columbus, OH"
     },
     {
-      "date": "2023-06-16",
-      "sanction": "USSSA",
-      "eventName": "Summer Smackdown",
-      "location": "Greenville, OH"
+      "date": "2023-10-21",
+      "sanction": "N/A (D1)",
+      "eventName": "America's Premier Fall Showcase",
+      "location": "Columbus, OH"
     },
     {
-      "date": "2023-06-24",
-      "sanction": "USA",
-      "eventName": "King's Island Showdown",
-      "location": "Lebanon, OH"
-    },
-    {
-      "date": "2023-07-07",
-      "sanction": "USA",
-      "eventName": "Great Lakes World Series",
-      "location": "Lebanon, OH"
-    },
-    {
-      "date": "2023-07-16",
-      "sanction": "SEAA",
-      "eventName": "SEAA World Series",
-      "location": "Chattanooga, TN"
+      "date": "2023-11-18",
+      "sanction": "N/A",
+      "eventName": "Bolts 5 Star Fall Showcase",
+      "location": "Birmingham, AL"
     }
   ],
   "coaches": [
     {
-      "name": "Kayla Dinsmore",
+      "name": "Alexis Harvey",
       "position": "Head Coach",
-      "email": "kayla.dinsmore24@gmail.com",
-      "phone": "937-641-9873",
-      "imageUrl": "../../../teams/2007/coaches/kayla-dinsmore.jpg"
+      "email": "alexisharvey033@gmail.com",
+      "phone": "937-212-4181",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
     },
     {
-      "name": "Justin Corsi",
+      "name": "Dana Johnson",
       "position": "Asst Coach",
-      "email": "justin.corsi@ymail.com",
-      "phone": "740-317-0349",
-      "imageUrl": "../../../teams/2007/coaches/justin-corsi.jpg"
+      "email": "xpress.danaj@gmail.com",
+      "phone": "937-545-0816",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Leanna Pittsenbarger",
+      "position": "Asst Coach / Pitching Coach",
+      "email": "leannapitt15@gmail.com",
+      "phone": "937-869-4325",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
     }
   ]
 }

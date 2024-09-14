@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TwitterWidgetComponent } from '../../components/twitter-widget/twitter-widget.component';
+import { TwitterWidgetComponent } from '../components/twitter-widget.component';
 
 @Component({
   selector: 'app-xpress-social',

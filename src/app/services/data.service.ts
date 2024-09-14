@@ -13,10 +13,4 @@ export class DataService {
   getTeam(id: string): Observable<Team> {
     return this.http.get<Team>(`${this.baseUrl}${id}.json`);
   }
-
-  getAllTeams(): Observable<{ id: string; name: string }[]> {
-    return this.http.get<{ id: string; name: string }[]>(
-      'assets/data/teams.json'
-    );
-  }
 }

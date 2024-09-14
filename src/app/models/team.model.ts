@@ -1,6 +1,7 @@
 export interface Team {
   id: string;
   name: string;
+  year: number;
   teamImageUrl?: string;
   players: Player[];
   schedule: ScheduleEvent[];
@@ -9,6 +10,7 @@ export interface Team {
 
 export interface Player {
   name?: string;
+  number?: number;
   position?: string;
   height?: string;
   bats?: string;

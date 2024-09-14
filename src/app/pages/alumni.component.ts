@@ -4,9 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-alumni',
   standalone: true,
   imports: [],
-  templateUrl: './alumni.component.html',
-  styleUrl: './alumni.component.scss'
+  template: ``,
+  styles: ``,
 })
-export class AlumniComponent {
-
-}
+export class AlumniComponent {}
