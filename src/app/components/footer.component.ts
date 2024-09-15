@@ -16,7 +16,11 @@ import { RouterModule } from '@angular/router';
       >
         <!-- Column 1: Logo -->
         <div>
-          <img src="assets/mvxLogo1.png" alt="Logo" style="width: 250px;" />
+          <img
+            src="assets/logos/mvxLogo1.png"
+            alt="Logo"
+            style="width: 250px;"
+          />
         </div>
 
         <!-- Column 2: Contact Information -->

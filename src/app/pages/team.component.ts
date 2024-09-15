@@ -29,12 +29,15 @@ import { Team } from '../models/team.model';
         />
       </div>
 
-      <!-- Team Content (existing sections with lazy loading for images) -->
-      <div id="roster">
-        <!-- Players Section -->
-        <h2 class="text-3xl font-semibold text-primary mb-4">Roster</h2>
+      <!-- Roster Section -->
+      <div id="roster" class="mb-16">
+        <h2
+          class="text-3xl font-semibold text-primary mb-6 border-l-4 border-secondary pl-4"
+        >
+          Roster
+        </h2>
         <div
-          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
         >
           <div
             *ngFor="let player of team?.players"
@@ -48,51 +51,53 @@ import { Team } from '../models/team.model';
                 class="w-full h-64 object-cover"
                 loading="lazy"
               />
-
               <div
                 class="absolute top-2 left-2 bg-primary text-white rounded-md px-2 py-1 text-sm font-bold"
               >
                 {{ player.gradYear }}
               </div>
               <div
-                class="absolute bottom-2 right-2 bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold"
+                class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2"
+              >
+                <h3 class="text-xl font-semibold">{{ player.name }}</h3>
+              </div>
+              <div
+                class="absolute bottom-2 right-2 bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold z-10"
               >
                 #{{ player.number }}
               </div>
             </div>
-            <!-- Player Information -->
-            <div>
-              <div class="p-4">
-                <h3 class="text-xl font-semibold mb-2">{{ player.name }}</h3>
-                <div class="space-y-1">
-                  <p class="bg-gray-100 p-1 rounded">
-                    Position: {{ player.position }}
-                  </p>
-                  <p class="bg-gray-200 p-1 rounded">
-                    Height: {{ player.height }}
-                  </p>
-                  <p class="bg-gray-100 p-1 rounded">
-                    Bats/Throws: {{ player.bats }}/{{ player.throws }}
-                  </p>
-                  <p class="bg-gray-200 p-1 rounded">Town: {{ player.town }}</p>
-                  <p class="bg-gray-100 p-1 rounded">
-                    School: {{ player.school }}
-                  </p>
-                  <p class="bg-gray-200 p-1 rounded">GPA: {{ player.gpa }}</p>
-                  <p class="bg-gray-100 p-1 rounded" *ngIf="player.status">
-                    Status: {{ player.status }}
-                  </p>
-                </div>
-                <!-- Twitter Link -->
+            <div class="p-4">
+              <div class="space-y-2">
+                <p class="bg-gray-100 p-2 rounded">
+                  Position: {{ player.position }}
+                </p>
+                <p class="bg-gray-100 p-2 rounded">
+                  Height: {{ player.height }}
+                </p>
+                <p class="bg-gray-200 p-2 rounded">
+                  Bats/Throws: {{ player.bats }}/{{ player.throws }}
+                </p>
+                <p class="bg-gray-100 p-2 rounded">Town: {{ player.town }}</p>
+                <p class="bg-gray-200 p-2 rounded">
+                  School: {{ player.school }}
+                </p>
+                <p class="bg-gray-100 p-2 rounded">GPA: {{ player.gpa }}</p>
+                <p class="bg-gray-200 p-2 rounded" *ngIf="player.status">
+                  Status: {{ player.status }}
+                </p>
+              </div>
+              <div class="mt-4 flex justify-center">
                 <a
                   *ngIf="player.twitter"
                   [href]="'https://twitter.com/' + player.twitter"
                   target="_blank"
-                  class="text-blue-500 hover:underline text-sm flex items-center mt-2"
+                  class="inline-flex items-center justify-center bg-secondary hover:bg-blue-500 text-white rounded-full w-10 h-10 transition-colors duration-300"
+                  title="Twitter Profile"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 mr-1"
+                    class="h-6 w-6"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                   >
@@ -100,7 +105,6 @@ import { Team } from '../models/team.model';
                       d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
                     />
                   </svg>
-                  Twitter
                 </a>
               </div>
             </div>

@@ -1,0 +1,28 @@
+{
+  "alumni": [
+    {
+      "id": "1",
+      "playerName": "Olivia Basil",
+      "xpressTeam": "Miami Valley Xpress '07 - Harvey",
+      "gradYear": 2025,
+      "position": "Pitcher",
+      "highSchool": "St. Ursula Academy",
+      "college": "Ohio Wesleyan University",
+      "imageUrl": "assets/teams/alumni/olivia-basil.png",
+      "hsLogoUrl": "assets/schools/st-ursula-academy-logo.png",
+      "collegeLogoUrl": "assets/schools/ohio-wesleyan-university-logo.png"
+    },
+    {
+      "id": "2",
+      "playerName": "Natalie Russell",
+      "xpressTeam": "Miami Valley Xpress 16u Harvey",
+      "gradYear": 2025,
+      "position": "2nd/Utility",
+      "highSchool": "Stebbins High School",
+      "college": "Ohio Wesleyan University",
+      "imageUrl": "assets/teams/defaultpfp.jpg",
+      "hsLogoUrl": "assets/schools/stebbins-hs-logo.png",
+      "collegeLogoUrl": "assets/schools/ohio-wesleyan-university-logo.png"
+    }
+  ]
+}

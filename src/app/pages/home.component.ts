@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
         muted
         class="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="assets/MVX-HomePage.mp4" type="video/mp4" />
+        <source src="assets/videos/MVX-HomePage.mp4" type="video/mp4" />
       </video>
       <div
         class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center"

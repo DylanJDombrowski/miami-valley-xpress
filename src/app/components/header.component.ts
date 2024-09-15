@@ -28,7 +28,7 @@ import { RouterModule } from '@angular/router';
         <div class="flex items-center justify-center">
           <div class="mr-4">
             <img
-              src="assets/mvxLogo2.png"
+              src="assets/logos/mvxLogo2.png"
               alt="MVX Logo"
               class="h-16 md:h-24"
             />
