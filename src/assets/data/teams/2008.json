@@ -1,0 +1,262 @@
+{
+  "id": "2008",
+  "name": "Xpress 2008",
+  "year": 2023,
+  "teamImageUrl": "",
+  "players": [
+    {
+      "name": "Morgan Cake",
+      "number": "2",
+      "position": "P,1",
+      "height": "",
+      "bats": "L",
+      "throws": "L",
+      "town": "Batavia, OH",
+      "school": "Western Brown",
+      "gradYear": 2026,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Maddi Robinson",
+      "number": "12",
+      "position": "2, UT",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Mason, OH",
+      "school": "Mason",
+      "gradYear": 2027,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Alivia Rupp",
+      "number": "14",
+      "position": "P, OF",
+      "height": "5'3\"",
+      "bats": "R",
+      "throws": "R",
+      "town": "Hamilton, OH",
+      "school": "Hamilton",
+      "gradYear": 2026,
+      "gpa": 4.0,
+      "status": null,
+      "twitter": "@aliviarupp",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Mariem Mezni",
+      "number": "20",
+      "position": "MIF",
+      "height": "5'6\"",
+      "bats": "R",
+      "throws": "R",
+      "town": "West Carrollton, OH",
+      "school": "West Carrollton",
+      "gradYear": 2028,
+      "gpa": 4.0,
+      "status": null,
+      "twitter": "@mariemmezni09",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Aubrey Coffey",
+      "number": "22",
+      "position": "1, OF",
+      "height": "5'7\"",
+      "bats": "R",
+      "throws": "R",
+      "town": "Springboro, OH",
+      "school": "Springboro",
+      "gradYear": 2027,
+      "gpa": 3.8,
+      "status": null,
+      "twitter": "@aubreycoffey22",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Mia Koogler",
+      "number": "23",
+      "position": "UT",
+      "height": "5'4\"",
+      "bats": "R",
+      "throws": "R",
+      "town": "Northmont, OH",
+      "school": "Northmont",
+      "gradYear": 2027,
+      "gpa": 3.8,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Amara Erbaugh",
+      "number": "27",
+      "position": "C, OF",
+      "height": "5'1\"",
+      "bats": "L",
+      "throws": "L",
+      "town": "Dayton, OH",
+      "school": "Troy",
+      "gradYear": 2026,
+      "gpa": 3.2,
+      "status": null,
+      "twitter": "@amaraerbaugh",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Mackenzie Cake",
+      "number": "32",
+      "position": "C, UT",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Batavia, OH",
+      "school": "Western Brown",
+      "gradYear": 2026,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Leah Mitchener",
+      "number": "35",
+      "position": "CF, UT",
+      "height": "5'5\"",
+      "bats": "R",
+      "throws": "R",
+      "town": "Mason, OH",
+      "school": "Kings",
+      "gradYear": 2026,
+      "gpa": 4.1,
+      "status": null,
+      "twitter": "@leahmitchener35",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Sydney Powell",
+      "number": "55",
+      "position": "3, UT",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Loveland, OH",
+      "school": "Kings",
+      "gradYear": 2027,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Leigha Combs",
+      "number": "88",
+      "position": "P, OF",
+      "height": "5'5\"",
+      "bats": "R",
+      "throws": "R",
+      "town": "Trenton, OH",
+      "school": "Edgewood",
+      "gradYear": 2026,
+      "gpa": 3.8,
+      "status": null,
+      "twitter": "@leighacombs88",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Zoey Anyanwu",
+      "number": "99",
+      "position": "1, P",
+      "height": "5'7\"",
+      "bats": "R",
+      "throws": "R",
+      "town": "Northmont, OH",
+      "school": "Northmont",
+      "gradYear": 2027,
+      "gpa": 3.86,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2023-09-17",
+      "sanction": "USA",
+      "eventName": "Back to School Bash (Sunday)",
+      "location": "Dayton, OH"
+    },
+    {
+      "date": "2023-09-30",
+      "sanction": "USSSA",
+      "eventName": "Fall Frenzy",
+      "location": "Middletown, OH"
+    },
+    {
+      "date": "2023-10-07",
+      "sanction": "Showcase",
+      "eventName": "DES-Dudley Sports Fall State-A/B Teams",
+      "location": "Columbus, OH"
+    },
+    {
+      "date": "2023-10-14",
+      "sanction": "Showcase",
+      "eventName": "Lasers Fall Showcase",
+      "location": "Columbus, OH"
+    },
+    {
+      "date": "2023-10-21",
+      "sanction": "USA",
+      "eventName": "23 Cincy Metro USA B/C Fall Championship",
+      "location": "Dayton, OH"
+    },
+    {
+      "date": "2023-10-28",
+      "sanction": "USSSA",
+      "eventName": "DeMarini Fall Brawl",
+      "location": "Columbus, OH"
+    },
+    {
+      "date": "2023-11-11",
+      "sanction": "Showcase",
+      "eventName": "2023 Mid South November Showcase",
+      "location": "Nashville, TN"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Rodney Coffey",
+      "position": "Head Coach",
+      "email": "boropanthersoftball@gmail.com",
+      "phone": "937-241-9177",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Maddy Collier",
+      "position": "Asst Coach / Pitching",
+      "email": "",
+      "phone": "",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Hannah Brown",
+      "position": "Asst Coach / College Student",
+      "email": "",
+      "phone": "",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Gabby Hougan",
+      "position": "Asst Coach / College Student / Player",
+      "email": "",
+      "phone": "",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "2010",
+  "name": "Xpress 2010",
+  "year": 2023,
+  "teamImageUrl": "",
+  "players": [
+    {
+      "name": "Addison Penn",
+      "number": "1",
+      "position": "2B/OF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Kettering, OH",
+      "school": "Fairmont",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Caitlyn Belcher",
+      "number": "4",
+      "position": "P/IF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Centerville, OH",
+      "school": "Centerville",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Liliana Bowling",
+      "number": "10",
+      "position": "OF/1",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Centerville, OH",
+      "school": "Centerville",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Annie Mejia",
+      "number": "11",
+      "position": "3B/C",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Centerville, OH",
+      "school": "Centerville",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Riley Lucas",
+      "number": "16",
+      "position": "OF/P",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Springboro, OH",
+      "school": "Springboro",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Hadley Sadgebury",
+      "number": "20",
+      "position": "C/OF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Centerville, OH",
+      "school": "Centerville",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Bailey Young",
+      "number": "22",
+      "position": "3B/C",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Kettering, OH",
+      "school": "Fairmont",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Lily Motter",
+      "number": "25",
+      "position": "C/UTL",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Springfield, OH",
+      "school": "Kenton Ridge",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Jaidan Burrell",
+      "number": "44",
+      "position": "1B/C",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Dayton, OH",
+      "school": "Stivers",
+      "gradYear": 2028,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Marissa Hemmerich",
+      "number": "99",
+      "position": "P/IF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Brookville, OH",
+      "school": "Brookville",
+      "gradYear": 2029,
+      "gpa": null,
+      "status": "Uncommitted",
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2023-09-17",
+      "sanction": "USA",
+      "eventName": "Back to School Cincy Metro",
+      "location": "Armco Park"
+    },
+    {
+      "date": "2023-09-24",
+      "sanction": "USA",
+      "eventName": "Fillies Scrimmages 3GM",
+      "location": "Lagona Park Springfield"
+    },
+    {
+      "date": "2023-10-08",
+      "sanction": "USA",
+      "eventName": "8th Annual \"Fall Lightning Strikes\" A/B",
+      "location": "Heath"
+    },
+    {
+      "date": "2023-10-28",
+      "sanction": "USSSA",
+      "eventName": "Dudley Sports Fall State A/B",
+      "location": "Berliner"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Tiffany Penn",
+      "position": "Head Coach",
+      "email": "mvxpress2010@gmail.com",
+      "phone": "937-304-9368",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Ira Young",
+      "position": "Assistant Coach",
+      "email": "mvxpress2010@gmail.com",
+      "phone": "937-269-6613",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Jason Belcher",
+      "position": "Assistant Coach",
+      "email": "mvxpress2010@gmail.com",
+      "phone": "937-470-7899",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Mark Lucas",
+      "position": "Assistant Coach",
+      "email": "mvxpress2010@gmail.com",
+      "phone": "",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    }
+  ]
+}

@@ -142,7 +142,7 @@ import { Team } from '../models/team.model';
       <div>
         <h2 class="text-3xl font-semibold text-primary mb-4 px-4">Coaches</h2>
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 px-4"
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8 px-4"
         >
           <div
             *ngFor="let coach of team?.coaches; let even = even"

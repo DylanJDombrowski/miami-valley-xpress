@@ -1,0 +1,203 @@
+{
+  "id": "2014",
+  "name": "Xpress 2014",
+  "year": 2023,
+  "teamImageUrl": "",
+  "players": [
+    {
+      "name": "Vivienne Nichols",
+      "number": "1",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Kettering",
+      "school": "",
+      "gradYear": 2032,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Violet Thompson",
+      "number": "2",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Kettering",
+      "school": "",
+      "gradYear": 2032,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Parker Williams",
+      "number": "4",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "West Carrollton",
+      "school": "",
+      "gradYear": 2032,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Harper Tindall",
+      "number": "7",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Fairborn",
+      "school": "",
+      "gradYear": 2032,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Avery McVicar",
+      "number": "10",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Kettering",
+      "school": "",
+      "gradYear": 2033,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Harper Haines",
+      "number": "11",
+      "position": "",
+      "height": "",
+      "bats": "L",
+      "throws": "L",
+      "town": "Blanchester",
+      "school": "",
+      "gradYear": 2032,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Audrey McVicar",
+      "number": "12",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Kettering",
+      "school": "",
+      "gradYear": 2033,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Galina Walden",
+      "number": "22",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Middletown",
+      "school": "",
+      "gradYear": 2031,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Avery Hall",
+      "number": "23",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Madison Township",
+      "school": "",
+      "gradYear": 2032,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Remi Lewis",
+      "number": "36",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Miamisburg",
+      "school": "",
+      "gradYear": 2032,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Ella Hall",
+      "number": "44",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Madison Township",
+      "school": "",
+      "gradYear": 2032,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2023-08-20",
+      "sanction": "N/A",
+      "eventName": "Lebanon B/C league",
+      "location": "Lebanon, OH"
+    },
+    {
+      "date": "2023-10-07",
+      "sanction": "USSSA",
+      "eventName": "Fall Frenzy #6",
+      "location": "Rowe Sports Complex"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Brandon Nichols",
+      "position": "Head Coach",
+      "email": "mvxpress2014@gmail.com",
+      "phone": "937-768-3144",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Shane Hall",
+      "position": "Asst Coach",
+      "email": "shane@1800blacktopohio.com",
+      "phone": "513-571-4551",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    }
+  ]
+}
