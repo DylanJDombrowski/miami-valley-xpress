@@ -38,12 +38,13 @@ import { CommonModule } from '@angular/common';
     <div class="container">
       <h2>Our Home Field</h2>
       <iframe
-        src="https://www.google.com/maps/embed?pb=..."
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.2302191131673!2d-84.14650732339793!3d39.717289771540336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88408f234ff151a3%3A0x7e3533a5fbaba8e7!2s5995%20Student%20St%2C%20Dayton%2C%20OH%2045459%2C%20USA!5e0!3m2!1sen!2s!4v1694822345678!5m2!1sen!2s"
         width="100%"
         height="450"
         style="border:0;"
         allowfullscreen=""
         loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
   `,
