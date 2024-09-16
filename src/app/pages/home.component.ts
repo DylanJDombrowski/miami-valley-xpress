@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
     </div>
 
     <!-- Tryouts and Signing Day -->
-    <div class="container mx-auto my-8 flex flex-wrap">
+    <!-- <div class="container mx-auto my-8 flex flex-wrap">
       <div class="w-full md:w-1/2 p-4">
         <h2 class="text-3xl font-bold mb-4">
           Miami Valley Xpress 23-24 Tryouts
@@ -35,7 +35,6 @@ import { CommonModule } from '@angular/common';
         </p>
         <h3 class="text-2xl font-bold mt-4">Tryout Dates</h3>
         <p>August 5th - 7th</p>
-        <!-- Add more content here -->
       </div>
       <div class="w-full md:w-1/2 p-4">
         <h2 class="text-3xl font-bold mb-4">Miami Valley Xpress Signing Day</h2>
@@ -49,9 +48,8 @@ import { CommonModule } from '@angular/common';
           August 17th at The Miamisburg Moose Lodge (2110 E Central Ave
           Miamisburg, OH)
         </p>
-        <!-- Add more content here -->
       </div>
-    </div>
+    </div> -->
 
     <!-- Indoor Facility -->
     <div class="container mx-auto my-8">
@@ -67,10 +65,31 @@ import { CommonModule } from '@angular/common';
 
     <!-- Image Carousel -->
     <div class="container mx-auto my-8">
-      <!-- You can use a third-party carousel library or implement a simple one using Angular -->
-      <!-- Placeholder for carousel -->
-      <div class="bg-gray-200 h-64 flex items-center justify-center">
-        <p>Image Carousel Placeholder</p>
+      <div class="relative overflow-hidden">
+        <div
+          class="flex transition-transform duration-500 ease-in-out"
+          [style.transform]="'translateX(' + -currentIndex * 100 + '%)'"
+        >
+          <div *ngFor="let image of images" class="w-full flex-shrink-0">
+            <img
+              [src]="image"
+              alt="Carousel image"
+              class="w-full h-64 object-cover"
+            />
+          </div>
+        </div>
+        <button
+          (click)="prevSlide()"
+          class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2"
+        >
+          &lt;
+        </button>
+        <button
+          (click)="nextSlide()"
+          class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2"
+        >
+          &gt;
+        </button>
       </div>
     </div>
 
@@ -89,5 +108,90 @@ import { CommonModule } from '@angular/common';
       </iframe>
     </div>
   `,
+  styles: [
+    `
+      .flex {
+        display: flex;
+      }
+      .transition-transform {
+        transition-property: transform;
+      }
+      .duration-500 {
+        transition-duration: 500ms;
+      }
+      .ease-in-out {
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .relative {
+        position: relative;
+      }
+      .absolute {
+        position: absolute;
+      }
+      .overflow-hidden {
+        overflow: hidden;
+      }
+      .w-full {
+        width: 100%;
+      }
+      .h-64 {
+        height: 16rem;
+      }
+      .object-cover {
+        object-fit: cover;
+      }
+      .flex-shrink-0 {
+        flex-shrink: 0;
+      }
+      .left-0 {
+        left: 0;
+      }
+      .right-0 {
+        right: 0;
+      }
+      .top-1/2 {
+        top: 50%;
+      }
+      .transform {
+        transform: translateY(-50%);
+      }
+      .bg-black {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .text-white {
+        color: white;
+      }
+      .p-2 {
+        padding: 0.5rem;
+      }
+    `,
+  ],
 })
-export class HomeComponent {}
+export class HomeComponent {
+  images: string[] = [
+    'assets/home-carousel/Xpress.jpg',
+    'assets/home-carousel/Xpress-team-pic.jpg',
+    'assets/home-carousel/Xpress-org.jpg',
+  ];
+
+  currentIndex = 0;
+
+  ngOnInit() {
+    this.startCarousel();
+  }
+
+  startCarousel() {
+    setInterval(() => {
+      this.nextSlide();
+    }, 5000); // Change slide every 5 seconds
+  }
+
+  nextSlide() {
+    this.currentIndex = (this.currentIndex + 1) % this.images.length;
+  }
+
+  prevSlide() {
+    this.currentIndex =
+      (this.currentIndex - 1 + this.images.length) % this.images.length;
+  }
+}
