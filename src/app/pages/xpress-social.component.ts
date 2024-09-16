@@ -1,20 +1,17 @@
-import { Component } from '@angular/core';
-import { TwitterWidgetComponent } from '../components/twitter-widget.component';
+import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-xpress-social',
   standalone: true,
-  imports: [TwitterWidgetComponent],
   template: `
     <div class="xpress-social-container">
-      <h2>&#64;XpressSoftball Tweets</h2>
-      <app-twitter-widget
-        [username]="'XpressSoftball'"
-        [tweetLimit]="20"
-        [height]="'600px'"
-      >
-      </app-twitter-widget>
+      <div #twitterContainer></div>
     </div>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
   `,
   styles: [
     `
@@ -26,4 +23,46 @@ import { TwitterWidgetComponent } from '../components/twitter-widget.component';
     `,
   ],
 })
-export class XpressSocialComponent {}
+export class XpressSocialComponent implements AfterViewInit {
+  @ViewChild('twitterContainer') twitterContainer!: ElementRef;
+
+  ngAfterViewInit() {
+    this.loadTwitterWidget();
+  }
+
+  loadTwitterWidget() {
+    const script = document.createElement('script');
+    script.src = 'https://platform.twitter.com/widgets.js';
+    script.charset = 'utf-8';
+    script.async = true;
+
+    script.onload = () => {
+      // @ts-ignore: Ignoring 'twttr' property as it's added by the Twitter script
+      twttr.widgets
+        .createTimeline(
+          {
+            sourceType: 'profile',
+            screenName: 'XpressSoftball',
+          },
+          this.twitterContainer.nativeElement,
+          {
+            maxHeight: 600,
+            chrome: 'noheader, nofooter',
+            // tweetLimit: 20, // Remove this line to show more tweets
+          }
+        )
+        .then((el: any) => {
+          // Add a "Load more" button
+          const loadMoreButton = document.createElement('button');
+          loadMoreButton.textContent = 'Load more tweets';
+          loadMoreButton.addEventListener('click', () => {
+            // @ts-ignore: Ignoring 'twttr' property
+            twttr.widgets.load(this.twitterContainer.nativeElement);
+          });
+          this.twitterContainer.nativeElement.appendChild(loadMoreButton);
+        });
+    };
+
+    document.body.appendChild(script);
+  }
+}
