@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../services/data.service';
 import { Team } from '../models/team.model';
+import { PDFGenerator } from '../../../backend/pdf/pdfController';
 
 @Component({
   selector: 'app-team',
@@ -205,5 +206,13 @@ export class TeamComponent implements OnInit {
       .getDate()
       .toString()
       .padStart(2, '0')}`;
+  }
+
+  generatePDF() {
+    this.dataService.getTeamTemplate().subscribe((template) => {
+      const pdfGenerator = new PDFGenerator(template);
+      const pdf = pdfGenerator.generateTeamPDF(this.team);
+      pdf.save(`${this.team.name}-roster.pdf`);
+    });
   }
 }
