@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../services/data.service';
 import { Team } from '../models/team.model';
-import { PDFGenerator } from '../../../backend/pdf/pdfController';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-team',
@@ -181,7 +181,8 @@ export class TeamComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private dataService: DataService
+    private dataService: DataService,
+    private http: HttpClient
   ) {}
 
   ngOnInit() {
@@ -196,8 +197,8 @@ export class TeamComponent implements OnInit {
 
   getImageUrl(url: string): string {
     if (!url) return 'assets/teams/defaultpfp.jpg';
-    if (url.startsWith('http')) return url; // For external URLs
-    return url.startsWith('assets/') ? url : `assets/${url}`; // Prepend 'assets/' only if needed
+    if (url.startsWith('http')) return url;
+    return url.startsWith('assets/') ? url : `assets/${url}`;
   }
 
   formatDate(dateString: string): string {
@@ -209,10 +210,20 @@ export class TeamComponent implements OnInit {
   }
 
   generatePDF() {
-    this.dataService.getTeamTemplate().subscribe((template) => {
-      const pdfGenerator = new PDFGenerator(template);
-      const pdf = pdfGenerator.generateTeamPDF(this.team);
-      pdf.save(`${this.team.name}-roster.pdf`);
-    });
+    if (this.team) {
+      this.http
+        .get(`/api/generatePDF/${this.team.id}`, { responseType: 'blob' })
+        .subscribe(
+          (pdfBlob: Blob) => {
+            const url = window.URL.createObjectURL(pdfBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `${this.team?.name}-roster.pdf`;
+            link.click();
+            window.URL.revokeObjectURL(url);
+          },
+          (error: any) => console.error('Error generating PDF:', error)
+        );
+    }
   }
 }

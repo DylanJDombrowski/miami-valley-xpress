@@ -3,11 +3,14 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Team } from '../models/team.model';
 import { BlogPost } from '../models/blog-post.model';
+
 @Injectable({
   providedIn: 'root',
 })
 export class DataService {
   private baseUrl = 'assets/data/teams/';
+  private apiUrl = '/api';
+
   constructor(private http: HttpClient) {}
 
   getTeam(id: string): Observable<Team> {
@@ -16,5 +19,11 @@ export class DataService {
 
   getBlogPosts(): Observable<BlogPost[]> {
     return this.http.get<BlogPost[]>('assets/data/blog-posts.json');
+  }
+
+  generateTeamPDF(team: Team): Observable<Blob> {
+    return this.http.post(`${this.apiUrl}/generatePDF`, team, {
+      responseType: 'blob',
+    });
   }
 }
