@@ -3,7 +3,7 @@ import { PDFGeneratorService } from './pdfGeneratorService.js';
 import { Team } from '../models/team.model.js';
 
 export class PDFController {
-  private pdfGenerator: PDFGeneratorService;
+  public pdfGenerator: PDFGeneratorService;
 
   constructor() {
     this.pdfGenerator = new PDFGeneratorService();

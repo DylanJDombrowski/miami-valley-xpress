@@ -16,6 +16,8 @@ export class PDFGeneratorService {
       __dirname,
       '..',
       '..',
+      'src',
+      'pdf',
       'templates',
       'teamRoster.hbs'
     );

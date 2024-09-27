@@ -1,11 +1,11 @@
 export interface Team {
-  id: string;
+  id?: string;
   name: string;
-  year: number;
+  year?: number;
   teamImageUrl?: string;
-  players: Player[];
-  schedule: ScheduleEvent[];
-  coaches: Coach[];
+  players?: Player[];
+  schedule?: ScheduleEvent[];
+  coaches?: Coach[];
 }
 
 export interface Player {
@@ -21,7 +21,7 @@ export interface Player {
   gpa?: number;
   status?: string;
   twitter?: string;
-  imageUrl: string;
+  imageUrl?: string;
 }
 
 export interface ScheduleEvent {
