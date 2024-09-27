@@ -1,19 +1,21 @@
-├─ .gitignore
 ├─ angular.json
 ├─ backend
-│ ├─ models
-│ │ └─ team.model.ts
 │ ├─ package-lock.json
 │ ├─ package.json
-│ ├─ pdf
-│ │ ├─ pdfController.ts
-│ │ ├─ pdfGeneratorService.ts
-│ │ └─ teamRoster.hbs
-│ ├─ server.ts
+│ ├─ src
+│ │ ├─ models
+│ │ │ └─ team.model.ts
+│ │ ├─ pdf
+│ │ │ ├─ pdfController.ts
+│ │ │ ├─ pdfGeneratorService.ts
+│ │ │ └─ templates
+│ │ │ └─ teamRoster.hbs
+│ │ └─ server.ts
 │ └─ tsconfig.json
 ├─ package-lock.json
 ├─ package.json
 ├─ postcss.config.js
+├─ proxy.conf.json
 ├─ README.md
 ├─ server.ts
 ├─ src
