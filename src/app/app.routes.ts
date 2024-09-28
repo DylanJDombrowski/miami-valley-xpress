@@ -7,6 +7,8 @@ import { AllAboardComponent } from './pages/all-aboard.component';
 import { ExtendedTeamComponent } from './pages/extended-team.component';
 import { XpressSocialComponent } from './pages/xpress-social.component';
 import { BlogPostDetailComponent } from './components/blog-post-detail.component';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
 import { AuthGuard } from './core/guards/auth.guard';
 
 export const routes: Routes = [
@@ -18,8 +20,10 @@ export const routes: Routes = [
   { path: 'all-aboard', component: AllAboardComponent },
   { path: 'extended-team', component: ExtendedTeamComponent },
   { path: 'xpress-social', component: XpressSocialComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
   {
-    path: 'backend',
+    path: 'backend-portal',
     loadChildren: () =>
       import('./backend-portal/backend-portal.routes').then(
         (m) => m.BACKEND_ROUTES

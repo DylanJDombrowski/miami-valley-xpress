@@ -1,23 +1,61 @@
 import { Injectable } from '@angular/core';
-import { AngularFireAuth } from '@angular/fire/compat/auth';
+import {
+  Auth,
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  signOut,
+  user,
+} from '@angular/fire/auth';
 import { Observable } from 'rxjs';
-import { User } from '../../models/user.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
-  user$: Observable<User | null>;
+  user$: Observable<any>;
 
-  constructor(private afAuth: AngularFireAuth) {
-    this.user$ = this.afAuth.authState;
+  constructor(private auth: Auth) {
+    this.user$ = user(this.auth);
   }
 
-  async login(email: string, password: string): Promise<void> {
-    await this.afAuth.signInWithEmailAndPassword(email, password);
+  async login(email: string, password: string) {
+    try {
+      const result = await signInWithEmailAndPassword(
+        this.auth,
+        email,
+        password
+      );
+      return result.user;
+    } catch (error) {
+      console.error('Login error:', error);
+      throw error;
+    }
   }
 
-  async logout(): Promise<void> {
-    await this.afAuth.signOut();
+  async register(email: string, password: string) {
+    try {
+      const result = await createUserWithEmailAndPassword(
+        this.auth,
+        email,
+        password
+      );
+      return result.user;
+    } catch (error) {
+      console.error('Registration error:', error);
+      throw error;
+    }
+  }
+
+  async logout() {
+    try {
+      await signOut(this.auth);
+    } catch (error) {
+      console.error('Logout error:', error);
+      throw error;
+    }
+  }
+
+  getCurrentUser() {
+    return this.auth.currentUser;
   }
 }

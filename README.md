@@ -1,22 +1,7 @@
-├─ angular.json
-├─ backend
-│ ├─ package-lock.json
-│ ├─ package.json
-│ ├─ src
-│ │ ├─ models
-│ │ │ └─ team.model.ts
-│ │ ├─ pdf
-│ │ │ ├─ pdfController.ts
-│ │ │ ├─ pdfGeneratorService.ts
-│ │ │ └─ templates
-│ │ │ └─ teamRoster.hbs
-│ │ └─ server.ts
-│ └─ tsconfig.json
 ├─ package-lock.json
 ├─ package.json
 ├─ postcss.config.js
 ├─ proxy.conf.json
-├─ README.md
 ├─ server.ts
 ├─ src
 │ ├─ app
@@ -24,13 +9,39 @@
 │ │ ├─ app.config.server.ts
 │ │ ├─ app.config.ts
 │ │ ├─ app.routes.ts
+│ │ ├─ backend-portal
+│ │ │ ├─ backend-home
+│ │ │ │ ├─ backend-home.component.html
+│ │ │ │ ├─ backend-home.component.scss
+│ │ │ │ └─ backend-home.component.ts
+│ │ │ ├─ backend-portal.module.ts
+│ │ │ ├─ backend-portal.routes.ts
+│ │ │ ├─ blog-management
+│ │ │ │ ├─ blog-management.component.html
+│ │ │ │ ├─ blog-management.component.scss
+│ │ │ │ └─ blog-management.component.ts
+│ │ │ ├─ pdf-generator
+│ │ │ │ ├─ pdf-generator.component.html
+│ │ │ │ ├─ pdf-generator.component.scss
+│ │ │ │ ├─ pdf-generator.component.ts
+│ │ │ │ └─ pdf-generator.service.ts
+│ │ │ └─ team-management
+│ │ │ ├─ team-management.component.html
+│ │ │ ├─ team-management.component.scss
+│ │ │ └─ team-management.component.ts
 │ │ ├─ components
 │ │ │ ├─ blog-post-detail.component.ts
 │ │ │ ├─ footer.component.ts
 │ │ │ └─ header.component.ts
+│ │ ├─ core
+│ │ │ ├─ guards
+│ │ │ │ └─ auth.guard.ts
+│ │ │ └─ services
+│ │ │ └─ auth.service.ts
 │ │ ├─ models
 │ │ │ ├─ blog-post.model.ts
-│ │ │ └─ team.model.ts
+│ │ │ ├─ team.model.ts
+│ │ │ └─ user.model.ts
 │ │ ├─ pages
 │ │ │ ├─ all-aboard.component.ts
 │ │ │ ├─ alumni.component.ts
@@ -74,13 +85,8 @@
 │ │ │ └─ stebbins-hs-logo.png
 │ │ ├─ stock
 │ │ │ └─ stock-img-1.jpg
-│ │ ├─ team-photos
 │ │ ├─ teams
-│ │ │ ├─ 2006
-│ │ │ │ ├─ coaches
-│ │ │ │ └─ players
 │ │ │ ├─ 2007
-│ │ │ │ ├─ coaches
 │ │ │ │ └─ players
 │ │ │ │ ├─ allie-sheen.jpg
 │ │ │ │ ├─ ella-dersham.jpg

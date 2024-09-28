@@ -34,6 +34,6 @@ export class PDFGeneratorService {
     const pdf = await page.pdf({ format: 'A4' });
     await browser.close();
 
-    return pdf;
+    return Buffer.from(pdf);
   }
 }
