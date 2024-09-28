@@ -1,4 +1,3 @@
-├─ package-lock.json
 ├─ package.json
 ├─ postcss.config.js
 ├─ proxy.conf.json
@@ -9,6 +8,16 @@
 │ │ ├─ app.config.server.ts
 │ │ ├─ app.config.ts
 │ │ ├─ app.routes.ts
+│ │ ├─ auth
+│ │ │ ├─ login
+│ │ │ │ ├─ login.component.html
+│ │ │ │ ├─ login.component.scss
+│ │ │ │ ├─ login.component.spec.ts
+│ │ │ │ └─ login.component.ts
+│ │ │ └─ register
+│ │ │ ├─ register.component.html
+│ │ │ ├─ register.component.scss
+│ │ │ └─ register.component.ts
 │ │ ├─ backend-portal
 │ │ │ ├─ backend-home
 │ │ │ │ ├─ backend-home.component.html
