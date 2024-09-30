@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, ActivatedRoute } from '@angular/router';
-import { DataService } from '../services/data.service';
 import { BlogPost } from '../models/blog-post.model';
+import { JsonDataService } from '../core/services/json-data.service';
 
 @Component({
   selector: 'app-blog-post-detail',
@@ -97,7 +97,7 @@ export class BlogPostDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private dataService: DataService
+    private jsonDataService: JsonDataService
   ) {}
 
   ngOnInit() {
@@ -108,7 +108,7 @@ export class BlogPostDetailComponent implements OnInit {
   }
 
   loadBlogPost(slug: string) {
-    this.dataService.getBlogPosts().subscribe((posts: BlogPost[]) => {
+    this.jsonDataService.getBlogPosts().subscribe((posts: BlogPost[]) => {
       this.post = posts.find((p) => p.slug === slug);
       this.otherPosts = posts
         .filter((p) => p.slug !== slug)

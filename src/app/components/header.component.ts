@@ -1,6 +1,7 @@
 import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { AuthService } from '../core/services/auth.service';
 
 @Component({
   selector: 'app-header',
@@ -118,6 +119,11 @@ import { RouterModule } from '@angular/router';
               >Xpress Social</a
             >
           </li>
+          <li *ngIf="authService.user$ | async">
+            <a routerLink="/backend-portal" class="hover:text-[#D29C9C] text-lg"
+              >Backend Portal</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -190,6 +196,11 @@ import { RouterModule } from '@angular/router';
               >Xpress Social</a
             >
           </li>
+          <li *ngIf="authService.user$ | async">
+            <a routerLink="/backend-portal" class="hover:text-[#D29C9C] text-lg"
+              >Backend Portal</a
+            >
+          </li>
         </ul>
       </div>
     </div>
@@ -208,6 +219,8 @@ import { RouterModule } from '@angular/router';
 export class HeaderComponent {
   teamYears: number[] = Array.from({ length: 9 }, (_, i) => 2014 - i);
   isMobileMenuOpen = false;
+
+  constructor(public authService: AuthService) {}
 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent) {
