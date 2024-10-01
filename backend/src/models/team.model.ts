@@ -1,6 +1,7 @@
 import { Pool } from 'mysql2/promise';
 
 export class Team {
+  name: any;
   constructor(private pool: Pool) {}
 
   async getAllTeams() {

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, ActivatedRoute } from '@angular/router';
-import { DataService } from '../services/data.service';
+import { DataService } from '../core/services/json-data.service';
 import { Team } from '../models/team.model';
 import { HttpClient } from '@angular/common/http';
 

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { JsonDataService } from '../../core/services/json-data.service';
+import { DataService } from '../../core/services/json-data.service';
 
 @Component({
   standalone: true,
@@ -31,7 +31,7 @@ export class PdfGeneratorComponent implements OnInit {
   selectedYear: string = '';
   teamData: any;
 
-  constructor(private jsonDataService: JsonDataService) {}
+  constructor(private DataService: DataService) {}
 
   ngOnInit() {
     this.selectedYear = this.years[0];
@@ -39,9 +39,9 @@ export class PdfGeneratorComponent implements OnInit {
   }
 
   loadTeamData() {
-    this.jsonDataService.getTeamData(this.selectedYear).subscribe(
-      (data) => (this.teamData = data),
-      (error) => console.error('Error loading team data:', error)
+    this.DataService.getTeamData(this.selectedYear).subscribe(
+      (data: any) => (this.teamData = data),
+      (error: any) => console.error('Error loading team data:', error)
     );
   }
 

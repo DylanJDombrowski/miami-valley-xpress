@@ -1,21 +1,27 @@
-// src/app/backend-portal/team-management/team-management.component.ts
 import { Component, OnInit } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
 import { TeamService } from '../../core/services/team.service';
+import { TeamSelectorComponent } from '../team-selector/team-selector.component';
+import { TeamDashboardComponent } from '../team-dashboard/team-dashboard.component';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-team-management',
+  template: `
+    <app-team-selector
+      [teams]="teams"
+      (teamSelected)="onTeamSelect($event)"
+    ></app-team-selector>
+    <app-team-dashboard
+      *ngIf="selectedTeamId"
+      [selectedTeamId]="selectedTeamId"
+    ></app-team-dashboard>
+  `,
   standalone: true,
-  imports: [FormsModule, CommonModule],
-  templateUrl: './team-management.component.html',
-  styleUrls: ['./team-management.component.scss'],
+  imports: [TeamSelectorComponent, TeamDashboardComponent, NgIf],
 })
 export class TeamManagementComponent implements OnInit {
   teams: any[] = [];
-  selectedTeam: any;
-  players: any[] = [];
-  coaches: any[] = [];
+  selectedTeamId?: number;
 
   constructor(private teamService: TeamService) {}
 
@@ -25,27 +31,12 @@ export class TeamManagementComponent implements OnInit {
 
   loadTeams() {
     this.teamService.getTeams().subscribe(
-      (data: any) => {
-        this.teams = data;
-      },
-      (error: any) => console.error('Error loading teams:', error)
+      (data) => (this.teams = data),
+      (error) => console.error('Error loading teams:', error)
     );
   }
 
-  onTeamSelect(team: any) {
-    this.selectedTeam = team;
-    // Implement loadPlayers and loadCoaches methods in TeamService if needed
+  onTeamSelect(teamId: number) {
+    this.selectedTeamId = teamId;
   }
-
-  updateTeam(team: any) {
-    this.teamService.updateTeam(team.id, team).subscribe(
-      () => {
-        console.log('Team updated successfully');
-        this.loadTeams();
-      },
-      (error: any) => console.error('Error updating team:', error)
-    );
-  }
-
-  // Add methods for updating players and coaches
 }

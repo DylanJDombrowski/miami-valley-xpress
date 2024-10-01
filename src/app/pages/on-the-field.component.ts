@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { DataService } from '../services/data.service';
+import { DataService } from '../core/services/json-data.service';
 import { BlogPost } from '../models/blog-post.model';
 
 @Component({

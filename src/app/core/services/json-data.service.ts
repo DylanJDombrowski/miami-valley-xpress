@@ -6,7 +6,7 @@ import { BlogPost } from '../../models/blog-post.model';
 @Injectable({
   providedIn: 'root',
 })
-export class JsonDataService {
+export class DataService {
   baseUrl: any;
   apiUrl: any;
   constructor(private http: HttpClient) {}
