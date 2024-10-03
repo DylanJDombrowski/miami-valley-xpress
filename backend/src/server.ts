@@ -1,155 +1,112 @@
 import express from 'express';
-import { PDFController } from './pdf/pdfController.js';
-import { Team } from './models/team.model.js';
-import BlogPost from './models/blog-post.model.js';
-import { pool, sequelize } from './config/database.js';
+import { PDFController } from './pdf/pdfController';
+import { TeamService } from './services/team.service';
+import { BlogPostService } from './services/blog-post.service';
+import { errorHandler } from './middleware/error-handler';
+import { sequelize } from './config/database';
 
 const app = express();
 app.use(express.json());
 
 const pdfController = new PDFController();
-const teamModel = new Team(pool);
+const teamService = new TeamService();
+const blogPostService = new BlogPostService();
 
 // Team routes
-app.get('/api/teams', async (req, res) => {
+app.get('/api/teams', async (req, res, next) => {
   try {
-    const teams = await teamModel.getAllTeams();
+    const teams = await teamService.getAllTeams();
     res.json(teams);
   } catch (error) {
-    console.error('Error fetching teams:', error);
-    res.status(500).json({ error: 'An error occurred while fetching teams' });
+    next(error);
   }
 });
 
-app.get('/api/teams/:id', async (req, res) => {
+app.get('/api/teams/:id', async (req, res, next) => {
   try {
-    const team = await teamModel.getTeamById(req.params.id);
+    const team = await teamService.getTeamById(req.params.id);
     if (team) {
       res.json(team);
     } else {
       res.status(404).json({ error: 'Team not found' });
     }
   } catch (error) {
-    console.error('Error fetching team:', error);
-    res
-      .status(500)
-      .json({ error: 'An error occurred while fetching the team' });
+    next(error);
   }
 });
 
-app.put('/api/teams/:id', async (req, res) => {
+app.put('/api/teams/:id', async (req, res, next) => {
   try {
-    await teamModel.updateTeam(req.params.id, req.body);
+    await teamService.updateTeam(req.params.id, req.body);
     res.json({ message: 'Team updated successfully' });
   } catch (error) {
-    console.error('Error updating team:', error);
-    res
-      .status(500)
-      .json({ error: 'An error occurred while updating the team' });
+    next(error);
   }
 });
 
 // Blog post routes
-app.get('/api/blog-posts', async (req, res) => {
+app.get('/api/blog-posts', async (req, res, next) => {
   try {
-    const blogPosts = await BlogPost.findAll();
+    const blogPosts = await blogPostService.getAllBlogPosts();
     res.json(blogPosts);
   } catch (error) {
-    console.error('Error fetching blog posts:', error);
-    res
-      .status(500)
-      .json({ error: 'An error occurred while fetching blog posts' });
+    next(error);
   }
 });
 
-app.get('/api/blog-posts/:slug', async (req, res) => {
+app.get('/api/blog-posts/:slug', async (req, res, next) => {
   try {
-    const blogPost = await BlogPost.findOne({
-      where: { slug: req.params.slug },
-    });
+    const blogPost = await blogPostService.getBlogPostBySlug(req.params.slug);
     if (blogPost) {
       res.json(blogPost);
     } else {
       res.status(404).json({ error: 'Blog post not found' });
     }
   } catch (error) {
-    console.error('Error fetching blog post:', error);
-    res
-      .status(500)
-      .json({ error: 'An error occurred while fetching the blog post' });
+    next(error);
   }
 });
 
-app.post('/api/blog-posts', async (req, res) => {
+app.post('/api/blog-posts', async (req, res, next) => {
   try {
-    const newBlogPost = await BlogPost.create(req.body);
+    const newBlogPost = await blogPostService.createBlogPost(req.body);
     res.status(201).json(newBlogPost);
   } catch (error) {
-    console.error('Error creating blog post:', error);
-    res
-      .status(500)
-      .json({ error: 'An error occurred while creating the blog post' });
+    next(error);
   }
 });
 
-app.put('/api/blog-posts/:slug', async (req, res) => {
+app.put('/api/blog-posts/:slug', async (req, res, next) => {
   try {
-    const [updated] = await BlogPost.update(req.body, {
-      where: { slug: req.params.slug },
-    });
-    if (updated) {
-      const updatedBlogPost = await BlogPost.findOne({
-        where: { slug: req.params.slug },
-      });
-      res.json(updatedBlogPost);
-    } else {
-      res.status(404).json({ error: 'Blog post not found' });
-    }
+    const updatedBlogPost = await blogPostService.updateBlogPost(
+      req.params.slug,
+      req.body
+    );
+    res.json(updatedBlogPost);
   } catch (error) {
-    console.error('Error updating blog post:', error);
-    res
-      .status(500)
-      .json({ error: 'An error occurred while updating the blog post' });
+    next(error);
   }
 });
 
-app.delete('/api/blog-posts/:slug', async (req, res) => {
+app.delete('/api/blog-posts/:slug', async (req, res, next) => {
   try {
-    const deleted = await BlogPost.destroy({
-      where: { slug: req.params.slug },
-    });
-    if (deleted) {
-      res.status(204).send();
-    } else {
-      res.status(404).json({ error: 'Blog post not found' });
-    }
+    await blogPostService.deleteBlogPost(req.params.slug);
+    res.status(204).send();
   } catch (error) {
-    console.error('Error deleting blog post:', error);
-    res
-      .status(500)
-      .json({ error: 'An error occurred while deleting the blog post' });
+    next(error);
   }
 });
+
+// Error handling middleware
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
 
 sequelize
   .sync()
   .then(() => {
-    const server = app.listen(PORT, () => {
+    app.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`);
-    });
-
-    server.on('error', (e: NodeJS.ErrnoException) => {
-      if (e.code === 'EADDRINUSE') {
-        console.log('Address in use, retrying...');
-        setTimeout(() => {
-          server.close();
-          server.listen(PORT);
-        }, 1000);
-      } else {
-        console.error('Server error:', e);
-      }
     });
   })
   .catch((error: Error) => {

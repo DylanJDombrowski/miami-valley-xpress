@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, ActivatedRoute } from '@angular/router';
-import { DataService } from '../core/services/json-data.service';
+import { DataService } from '../core/services/data.service';
 import { Team } from '../models/team.model';
 import { HttpClient } from '@angular/common/http';
 
@@ -188,9 +188,9 @@ export class TeamComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe((params) => {
       const teamId = params['id'];
-      this.dataService.getTeam(teamId).subscribe(
-        (team) => (this.team = team),
-        (error) => console.error('Error fetching team data:', error)
+      this.dataService.getTeamData(teamId).subscribe(
+        (team: Team) => (this.team = team),
+        (error: any) => console.error('Error fetching team data:', error)
       );
     });
   }

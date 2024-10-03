@@ -1,16 +1,19 @@
-import { DataTypes, Model } from 'sequelize';
-import { sequelize } from '../config/database.js';
+import { Model, DataTypes } from 'sequelize';
+import { sequelize } from '../config/database';
 
 class BlogPost extends Model {
   public id!: number;
   public title!: string;
   public slug!: string;
+  public shortDescription!: string;
   public content!: string;
+  public image!: string;
   public date!: Date;
-  public location?: string;
-  public tournamentName?: string;
-  public place?: string;
-  public image?: string;
+  public teamName!: string;
+  public season!: string;
+  public location!: string;
+  public tournamentName!: string;
+  public place!: string;
 }
 
 BlogPost.init(
@@ -29,13 +32,23 @@ BlogPost.init(
       allowNull: false,
       unique: true,
     },
+    shortDescription: {
+      type: DataTypes.TEXT,
+    },
     content: {
       type: DataTypes.TEXT,
-      allowNull: false,
+    },
+    image: {
+      type: DataTypes.STRING,
     },
     date: {
       type: DataTypes.DATE,
-      allowNull: false,
+    },
+    teamName: {
+      type: DataTypes.STRING,
+    },
+    season: {
+      type: DataTypes.STRING,
     },
     location: {
       type: DataTypes.STRING,
@@ -44,9 +57,6 @@ BlogPost.init(
       type: DataTypes.STRING,
     },
     place: {
-      type: DataTypes.STRING,
-    },
-    image: {
       type: DataTypes.STRING,
     },
   },

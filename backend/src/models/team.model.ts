@@ -1,29 +1,40 @@
-import { Pool } from 'mysql2/promise';
+export interface Team {
+  id: string;
+  name: string;
+  year: number;
+  teamImageUrl?: string;
+  players: Player[];
+  schedule: ScheduleEvent[];
+  coaches: Coach[];
+}
 
-export class Team {
-  name: any;
-  constructor(private pool: Pool) {}
+export interface Player {
+  name?: string;
+  number?: number;
+  position?: string;
+  height?: string;
+  bats?: string;
+  throws?: string;
+  town?: string;
+  school?: string;
+  gradYear?: number;
+  gpa?: number;
+  status?: string;
+  twitter?: string;
+  imageUrl: string;
+}
 
-  async getAllTeams() {
-    const [rows] = await this.pool.query('SELECT * FROM teams');
-    return rows;
-  }
+export interface ScheduleEvent {
+  date: string;
+  sanction: string;
+  eventName: string;
+  location: string;
+}
 
-  async getTeamById(id: string) {
-    const [rows, fields]: [any[], any] = await this.pool.query(
-      'SELECT * FROM teams WHERE id = ?',
-      [id]
-    );
-    return rows[0];
-  }
-
-  async updateTeam(id: string, teamData: any) {
-    const { name, age_group, season } = teamData;
-    await this.pool.query(
-      'UPDATE teams SET name = ?, age_group = ?, season = ? WHERE id = ?',
-      [name, age_group, season, id]
-    );
-  }
-
-  // Add methods for players and coaches as well
+export interface Coach {
+  name: string;
+  position: string;
+  email: string;
+  phone: string;
+  imageUrl: string;
 }
