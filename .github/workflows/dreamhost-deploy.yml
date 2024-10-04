@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+
     steps:
       - uses: actions/checkout@v3
 
@@ -16,11 +18,14 @@ jobs:
         with:
           node-version: "18.x"
 
-      - name: Install dependencies
-        run: npm install
+      - name: Clean install dependencies
+        run: |
+          npm cache clean --force
+          rm -rf node_modules package-lock.json
+          npm install
 
       - name: Build
-        run: npm run build
+        run: npm run build -- --configuration production
 
       - name: Deploy to Dreamhost
         uses: easingthemes/ssh-deploy@v4.1.8
