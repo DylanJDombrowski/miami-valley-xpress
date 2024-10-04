@@ -177,28 +177,28 @@
       "position": "Head Coach",
       "email": "andreahonious@gmail.com",
       "phone": "5135718159",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Carla Branham",
       "position": "Asst Coach / Pitching",
       "email": "",
       "phone": "",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Dixon Chaney",
       "position": "Asst Coach",
       "email": "",
       "phone": "",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Dan White",
       "position": "Asst Coach",
       "email": "",
       "phone": "",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }

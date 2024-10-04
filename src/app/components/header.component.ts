@@ -217,7 +217,7 @@ import { AuthService } from '../core/services/auth.service';
   ],
 })
 export class HeaderComponent {
-  teamYears: number[] = Array.from({ length: 9 }, (_, i) => 2014 - i);
+  teamYears: number[] = Array.from({ length: 8 }, (_, i) => 2014 - i);
   isMobileMenuOpen = false;
 
   constructor(public authService: AuthService) {}

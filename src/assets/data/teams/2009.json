@@ -208,21 +208,21 @@
       "position": "Head Coach",
       "email": "kayla.dinsmore24@gmail.com",
       "phone": "937-641-9873",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Justin Corsi",
       "position": "Asst Coach",
       "email": "justincorsi@ymail.com",
       "phone": "740-317-0349",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Cierra Chastain",
       "position": "Asst & Pitching Coach",
       "email": "cmchastain98@yahoo.com",
       "phone": "623-687-0758",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }

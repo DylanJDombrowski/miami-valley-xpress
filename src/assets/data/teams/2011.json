@@ -177,7 +177,7 @@
       "position": "Head Coach",
       "email": "mvxpress2011@gmail.com",
       "phone": "937-657-4228",
-      "imageUrl": "/assets/teams/defaultpfp.jpg",
+      "imageUrl": "assets/teams/defaultpfp.jpg",
       "shirtSize": "2XL"
     },
     {
@@ -185,7 +185,7 @@
       "position": "Asst Coach / Pitching",
       "email": "cpitsch44@gmail.com",
       "phone": "513-678-1184",
-      "imageUrl": "/assets/teams/defaultpfp.jpg",
+      "imageUrl": "assets/teams/defaultpfp.jpg",
       "shirtSize": "M"
     }
   ]

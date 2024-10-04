@@ -190,14 +190,14 @@
       "position": "Head Coach",
       "email": "mvxpress2014@gmail.com",
       "phone": "937-768-3144",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Shane Hall",
       "position": "Asst Coach",
       "email": "shane@1800blacktopohio.com",
       "phone": "513-571-4551",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }

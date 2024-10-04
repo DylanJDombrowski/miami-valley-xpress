@@ -177,7 +177,7 @@
       "position": "Head Coach",
       "email": "miamivalleyexpress2012@gmail.com",
       "phone": "9379740454",
-      "imageUrl": "/assets/teams/defaultpfp.jpg",
+      "imageUrl": "assets/teams/defaultpfp.jpg",
       "shirtSize": "YXL"
     },
     {
@@ -185,7 +185,7 @@
       "position": "Asst Coach / Pitching",
       "email": "miamivalleyexpress2012@gmail.com",
       "phone": "9375736666",
-      "imageUrl": "/assets/teams/defaultpfp.jpg",
+      "imageUrl": "assets/teams/defaultpfp.jpg",
       "shirtSize": "AL"
     },
     {
@@ -193,7 +193,7 @@
       "position": "Manager",
       "email": "miamivalleyexpress2012@gmail.com",
       "phone": "9373085739",
-      "imageUrl": "/assets/teams/defaultpfp.jpg",
+      "imageUrl": "assets/teams/defaultpfp.jpg",
       "shirtSize": "AXL"
     },
     {
@@ -201,7 +201,7 @@
       "position": "Asst Coach / Defense",
       "email": "miamivalleyexpress2012@gmail.com",
       "phone": "9379740585",
-      "imageUrl": "/assets/teams/defaultpfp.jpg",
+      "imageUrl": "assets/teams/defaultpfp.jpg",
       "shirtSize": "AL"
     }
   ]

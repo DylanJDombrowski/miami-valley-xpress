@@ -187,28 +187,28 @@
       "position": "Head Coach",
       "email": "mvxpress2010@gmail.com",
       "phone": "937-304-9368",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Ira Young",
       "position": "Assistant Coach",
       "email": "mvxpress2010@gmail.com",
       "phone": "937-269-6613",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Jason Belcher",
       "position": "Assistant Coach",
       "email": "mvxpress2010@gmail.com",
       "phone": "937-470-7899",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Mark Lucas",
       "position": "Assistant Coach",
       "email": "mvxpress2010@gmail.com",
       "phone": "",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }
