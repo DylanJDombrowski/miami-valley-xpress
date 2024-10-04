@@ -31,8 +31,12 @@ jobs:
         uses: easingthemes/ssh-deploy@v4.1.8
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete"
+          ARGS: "-rltgoDzvO --delete -v"
           SOURCE: "dist/miami-valley-xpress/browser/"
           REMOTE_HOST: ${{ secrets.DREAMHOST_HOST }}
           REMOTE_USER: ${{ secrets.DREAMHOST_USER }}
           TARGET: ${{ secrets.DREAMHOST_TARGET_DIR }}
+          SCRIPT_BEFORE: |
+            whoami
+            pwd
+            ls -la
