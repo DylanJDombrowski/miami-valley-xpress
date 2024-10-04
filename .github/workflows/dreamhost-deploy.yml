@@ -27,16 +27,28 @@ jobs:
       - name: Build
         run: npm run build -- --configuration production
 
+      - name: Debug SSH key
+        run: |
+          echo "${{ secrets.SERVER_SSH_KEY }}" > debug_key
+          chmod 600 debug_key
+          ssh-keygen -l -f debug_key
+          rm debug_key
+
+      - name: Clean up remote directory
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DREAMHOST_HOST }}
+          username: ${{ secrets.DREAMHOST_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          script: |
+            rm -rf /home/dh_8v69cj/miamivalleyxpress.com/*
+
       - name: Deploy to Dreamhost
         uses: easingthemes/ssh-deploy@v4.1.8
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete -v"
+          ARGS: "-rltgoDzvO --delete"
           SOURCE: "dist/miami-valley-xpress/browser/"
           REMOTE_HOST: ${{ secrets.DREAMHOST_HOST }}
           REMOTE_USER: ${{ secrets.DREAMHOST_USER }}
-          TARGET: ${{ secrets.DREAMHOST_TARGET_DIR }}
-          SCRIPT_BEFORE: |
-            whoami
-            pwd
-            ls -la
+          TARGET: "/home/dh_8v69cj/miamivalleyxpress.com/"
