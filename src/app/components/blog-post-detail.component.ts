@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, ActivatedRoute } from '@angular/router';
 import { BlogPost } from '../models/blog-post.model';
-import { DataService } from '../core/services/data.service';
+import { DataService } from '../core/services/json-data.service';
 
 @Component({
   selector: 'app-blog-post-detail',

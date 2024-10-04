@@ -235,28 +235,28 @@
       "position": "Head Coach",
       "email": "boropanthersoftball@gmail.com",
       "phone": "937-241-9177",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Maddy Collier",
       "position": "Asst Coach / Pitching",
       "email": "",
       "phone": "",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Hannah Brown",
       "position": "Asst Coach / College Student",
       "email": "",
       "phone": "",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Gabby Hougan",
       "position": "Asst Coach / College Student / Player",
       "email": "",
       "phone": "",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }

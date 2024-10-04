@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { DataService } from '../core/services/data.service';
+import { DataService } from '../core/services/json-data.service';
 import { BlogPost } from '../models/blog-post.model';
 
 @Component({
@@ -101,7 +101,7 @@ export class OnTheFieldComponent implements OnInit {
   seasons: string[] = [];
   selectedSeason: string = '';
   currentPage: number = 1;
-  postsPerPage: number = 12;
+  postsPerPage: number = 14;
   totalPages: number = 1;
 
   constructor(private dataService: DataService) {}

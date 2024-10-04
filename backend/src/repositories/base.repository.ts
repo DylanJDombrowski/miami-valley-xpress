@@ -29,11 +29,13 @@ export class BaseRepository<M extends Model> {
     data: Partial<M>,
     options?: UpdateOptions<M['_attributes']>
   ): Promise<[number, M[]]> {
-    const [affectedCount, affectedRows] = await this.model.update(data, {
+    const result = await this.model.update(data, {
       where: { id } as any,
       returning: true,
       ...options,
     });
+    const affectedCount = result[0];
+    const affectedRows = result.length > 1 ? result[0] : [];
     return [affectedCount, affectedRows as M[]];
   }
 

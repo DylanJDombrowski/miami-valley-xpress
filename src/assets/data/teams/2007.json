@@ -229,21 +229,21 @@
       "position": "Head Coach",
       "email": "alexisharvey033@gmail.com",
       "phone": "937-212-4181",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Dana Johnson",
       "position": "Asst Coach",
       "email": "xpress.danaj@gmail.com",
       "phone": "937-545-0816",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Leanna Pittsenbarger",
       "position": "Asst Coach / Pitching Coach",
       "email": "leannapitt15@gmail.com",
       "phone": "937-869-4325",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }

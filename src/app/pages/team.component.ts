@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, ActivatedRoute } from '@angular/router';
-import { DataService } from '../core/services/data.service';
+import { DataService } from '../core/services/json-data.service';
 import { Team } from '../models/team.model';
 import { HttpClient } from '@angular/common/http';
 
@@ -116,7 +116,7 @@ import { HttpClient } from '@angular/common/http';
       <!-- Schedule Section -->
       <div id="Schedule">
         <h2 class="text-3xl font-semibold text-primary my-8 px-4">
-          {{ team?.year ?? 'N/A' }} - {{ (team?.year ?? 0) + 1 }} Schedule
+          {{ team?.year ?? '' }} {{ team?.year ?? '' }} Schedule
         </h2>
         <div class="overflow-x-auto px-4">
           <table class="w-full mb-8 bg-white rounded-lg shadow-md">
@@ -181,24 +181,40 @@ export class TeamComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private dataService: DataService,
-    private http: HttpClient
+    private dataService: DataService
   ) {}
 
   ngOnInit() {
     this.route.params.subscribe((params) => {
       const teamId = params['id'];
       this.dataService.getTeamData(teamId).subscribe(
-        (team: Team) => (this.team = team),
-        (error: any) => console.error('Error fetching team data:', error)
+        (team: Team) => {
+          this.team = team;
+          this.processImagePaths();
+        },
+        (error) => console.error('Error fetching team data:', error)
       );
     });
   }
 
+  processImagePaths() {
+    if (this.team) {
+      this.team.teamImageUrl = this.getImageUrl(this.team.teamImageUrl ?? '');
+      this.team.players = this.team.players.map((player) => ({
+        ...player,
+        imageUrl: this.getImageUrl(player.imageUrl),
+      }));
+      this.team.coaches = this.team.coaches.map((coach) => ({
+        ...coach,
+        imageUrl: this.getImageUrl(coach.imageUrl),
+      }));
+    }
+  }
+
   getImageUrl(url: string): string {
-    if (!url) return 'assets/teams/defaultpfp.jpg';
-    if (url.startsWith('http')) return url;
-    return url.startsWith('assets/') ? url : `assets/${url}`;
+    if (!url) return '';
+    if (url.startsWith('http') || url.startsWith('assets/')) return url;
+    return `assets/${url}`;
   }
 
   formatDate(dateString: string): string {
@@ -207,23 +223,5 @@ export class TeamComponent implements OnInit {
       .getDate()
       .toString()
       .padStart(2, '0')}`;
-  }
-
-  generatePDF() {
-    if (this.team) {
-      this.http
-        .get(`/api/generatePDF/${this.team.id}`, { responseType: 'blob' })
-        .subscribe(
-          (pdfBlob: Blob) => {
-            const url = window.URL.createObjectURL(pdfBlob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = `${this.team?.name}-roster.pdf`;
-            link.click();
-            window.URL.revokeObjectURL(url);
-          },
-          (error: any) => console.error('Error generating PDF:', error)
-        );
-    }
   }
 }
