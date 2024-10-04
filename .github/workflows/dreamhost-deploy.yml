@@ -1,0 +1,33 @@
+name: Deploy to Dreamhost
+
+on:
+  push:
+    branches:
+      - prod
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14.x"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build -- --prod
+
+      - name: Deploy to Dreamhost
+        uses: easingthemes/ssh-deploy@v2.1.5
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-rltgoDzvO --delete"
+          SOURCE: "dist/" # or your build output director
+          REMOTE_HOST: ${{ secrets.DREAMHOST_HOST }}
+          REMOTE_USER: ${{ secrets.DREAMHOST_USER }}
+          TARGET: ${{ secrets.DREAMHOST_TARGET_DIR }}
