@@ -6,49 +6,27 @@ on:
       - prod
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
-      - name: Use Node.js
-        uses: actions/setup-node@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: "18.x"
+          node-version: "14"
 
-      - name: Clean install dependencies
-        run: |
-          npm cache clean --force
-          rm -rf node_modules package-lock.json
-          npm install
+      - name: Install dependencies
+        run: npm ci
 
       - name: Build
-        run: npm run build -- --configuration production
-
-      - name: Debug SSH key
-        run: |
-          echo "${{ secrets.SERVER_SSH_KEY }}" > debug_key
-          chmod 600 debug_key
-          ssh-keygen -l -f debug_key
-          rm debug_key
-
-      - name: Clean up remote directory
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.DREAMHOST_HOST }}
-          username: ${{ secrets.DREAMHOST_USER }}
-          key: ${{ secrets.SERVER_SSH_KEY }}
-          script: |
-            rm -rf /home/dh_8v69cj/miamivalleyxpress.com/*
+        run: npm run build
 
       - name: Deploy to Dreamhost
-        uses: easingthemes/ssh-deploy@v4.1.8
+        uses: easingthemes/ssh-deploy@v2.1.5
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: "dist/miami-valley-xpress/browser/"
-          REMOTE_HOST: ${{ secrets.DREAMHOST_HOST }}
-          REMOTE_USER: ${{ secrets.DREAMHOST_USER }}
-          TARGET: "/home/dh_8v69cj/miamivalleyxpress.com/"
+          REMOTE_HOST: pdx1-shared-a2-01.dreamhost.com
+          REMOTE_USER: dh_8v69cj
+          SOURCE: "dist/"
+          TARGET: "/home/dh_8v69cj/miamivalleyxpress.com"
