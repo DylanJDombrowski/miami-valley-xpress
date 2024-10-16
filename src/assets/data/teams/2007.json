@@ -151,22 +151,22 @@
       "gradYear": 2026,
       "gpa": 3.95,
       "status": null,
-      "twitter": "@Kynadee_Bode00",
+      "twitter": "Kynadee_Bode00",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
-      "name": "Sam Wolfe",
-      "position": "C/3B",
+      "name": "Ryla Zehring",
+      "position": "RHP/1B",
       "number": "33",
-      "height": "5'3",
+      "height": "5'10",
       "bats": "R",
       "throws": "R",
-      "town": "New Carlise",
+      "town": "Miamisburg",
       "school": "Northwestern HS",
-      "gradYear": 2026,
-      "gpa": 3.6,
+      "gradYear": 2025,
+      "gpa": 4.0,
       "status": null,
-      "twitter": "twitter.com/samwolfe1234",
+      "twitter": "rylazehring2025",
       "imageUrl": "assets/teams/2007/players/sam-wolfe.jpg"
     },
     {
@@ -187,40 +187,19 @@
   ],
   "schedule": [
     {
-      "date": "2023-09-16",
-      "sanction": "N/A (D1)",
-      "eventName": "Outlaw Friendlies",
-      "location": "Canfield, OH"
+      "sanction": "Showcase",
+      "eventName": "Lasers Fall",
+      "location": "Berliner"
     },
     {
-      "date": "2023-09-30",
-      "sanction": "N/A (D1)",
-      "eventName": "Outlaw Invitational",
-      "location": "Columbus, OH"
+      "sanction": "Showcase",
+      "eventName": "Fall Brawl",
+      "location": "Berliner"
     },
     {
-      "date": "2023-10-07",
-      "sanction": "N/A (D1)",
-      "eventName": "Demarini Fall Brawl",
-      "location": "Columbus, OH"
-    },
-    {
-      "date": "2023-10-14",
-      "sanction": "N/A",
-      "eventName": "Laser Fall Showcase",
-      "location": "Columbus, OH"
-    },
-    {
-      "date": "2023-10-21",
-      "sanction": "N/A (D1)",
-      "eventName": "America's Premier Fall Showcase",
-      "location": "Columbus, OH"
-    },
-    {
-      "date": "2023-11-18",
-      "sanction": "N/A",
-      "eventName": "Bolts 5 Star Fall Showcase",
-      "location": "Birmingham, AL"
+      "sanction": "Showcase",
+      "eventName": "Americas Premier Fall",
+      "location": "Berliner"
     }
   ],
   "coaches": [
@@ -235,14 +214,6 @@
       "name": "Dana Johnson",
       "position": "Asst Coach",
       "email": "xpress.danaj@gmail.com",
-      "phone": "937-545-0816",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Leanna Pittsenbarger",
-      "position": "Asst Coach / Pitching Coach",
-      "email": "leannapitt15@gmail.com",
-      "phone": "937-869-4325",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
