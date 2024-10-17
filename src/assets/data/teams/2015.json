@@ -1,0 +1,201 @@
+{
+  "id": "2015",
+  "name": "Miami Valley Xpress 2015",
+  "year": 2023,
+  "teamImageUrl": "",
+  "players": [
+    {
+      "name": "Hazeli Haney",
+      "number": "8",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "Franklin",
+      "school": "",
+      "gradYear": 2035,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Julianna Estes",
+      "number": "15",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "Franklin",
+      "school": "",
+      "gradYear": 2034,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Adalyn Beach",
+      "number": "4",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "Waynesville",
+      "school": "",
+      "gradYear": 2034,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Shelby Aichele",
+      "number": "1",
+      "position": "",
+      "height": null,
+      "bats": "L",
+      "throws": "R",
+      "town": "Miamisburg",
+      "school": "",
+      "gradYear": 2033,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Blakely Blevins",
+      "number": "9",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "Franklin",
+      "school": "",
+      "gradYear": 2034,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Paislee Esposito",
+      "number": "2",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "Franklin",
+      "school": "",
+      "gradYear": 2034,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Avery Stahl",
+      "number": "3",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "Miamisburg",
+      "school": "",
+      "gradYear": 2033,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Avery Fisher",
+      "number": "14",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "Miamisburg",
+      "school": "",
+      "gradYear": 2033,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Crosley Horstman",
+      "number": "24",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "Miamisburg",
+      "school": "",
+      "gradYear": 2033,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Rowan Adams",
+      "number": "11",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "West Chester",
+      "school": "",
+      "gradYear": 2033,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    }
+  ],
+  "schedule": [
+    {
+      "date": "Oct 5-6",
+      "sanction": "",
+      "eventName": "Halloween Boo-Bash",
+      "location": "Fairfield, Oh"
+    },
+    {
+      "date": "Oct 12-13",
+      "sanction": "USA",
+      "eventName": "OHIO THUNDER CLASSIC",
+      "location": "Armco park- Lebanon, Oh"
+    },
+    {
+      "date": "Oct 19",
+      "sanction": "Usssa",
+      "eventName": "DES-WOH-2nd annual Cauldron Classic",
+      "location": "West Milton"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Angel Beach",
+      "position": "Head Coach",
+      "email": "Miamivalleyxpress2015@gmail.com",
+      "phone": "937-829-2111",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Hannah Kendrick",
+      "position": "Asst Coach",
+      "email": "Kendrick.hannah10@icloud.com",
+      "phone": "513-805-3678",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Michael Beach",
+      "position": "Asst Coach",
+      "email": "mbeach321@msn.com",
+      "phone": "937-830-1763",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    }
+  ]
+}

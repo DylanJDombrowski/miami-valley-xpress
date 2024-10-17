@@ -8,9 +8,24 @@ import { FooterComponent } from './components/footer.component';
   standalone: true,
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
   template: `
-    <app-header></app-header>
-    <router-outlet></router-outlet>
-    <app-footer></app-footer>
+    <div class="app-container">
+      <app-header></app-header>
+      <main class="content-wrapper">
+        <router-outlet></router-outlet>
+      </main>
+      <app-footer></app-footer>
+    </div>
+  `,
+  styles: `
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+  }
   `,
 })
 export class AppComponent {

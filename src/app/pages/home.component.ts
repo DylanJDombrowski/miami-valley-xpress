@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NavigationComponent } from '../components/navigation.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NavigationComponent],
   template: `
+    <app-navigation></app-navigation>
     <!-- Full-screen video -->
     <div class="video-container">
       <video autoplay loop muted playsinline>
@@ -17,10 +19,7 @@ import { CommonModule } from '@angular/common';
     <!-- Indoor Facility -->
     <div class="container">
       <h2>Xpress Indoor Facility and Training Partner</h2>
-      <p>
-        We are proud to announce our indoor facility and training partnership
-        with Home Field Instruction in Franklin, OH for the 2023-24 season.
-      </p>
+      <p>We are proud to announce our indoor facility and training partnership with Home Field Instruction in Franklin, OH for the 2023-24 season.</p>
     </div>
 
     <!-- Simple Image Carousel -->
@@ -112,11 +111,7 @@ import { CommonModule } from '@angular/common';
   ],
 })
 export class HomeComponent {
-  images: string[] = [
-    'assets/home-carousel/Xpress.jpg',
-    'assets/home-carousel/Xpress-team-pic.jpg',
-    'assets/home-carousel/Xpress-org.jpg',
-  ];
+  images: string[] = ['assets/home-carousel/Xpress.jpg', 'assets/home-carousel/Xpress-team-pic.jpg', 'assets/home-carousel/Xpress-org.jpg'];
 
   currentIndex = 0;
 
@@ -129,7 +124,6 @@ export class HomeComponent {
   }
 
   prevSlide() {
-    this.currentIndex =
-      (this.currentIndex - 1 + this.images.length) % this.images.length;
+    this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
   }
 }

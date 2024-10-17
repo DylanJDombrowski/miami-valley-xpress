@@ -1,0 +1,137 @@
+{
+  "id": "2016",
+  "name": "Miami Valley Xpress 2016",
+  "year": 2023,
+  "teamImageUrl": "",
+  "players": [
+    {
+      "name": "Alijah McDaniel",
+      "number": "1",
+      "position": "",
+      "height": null,
+      "bats": "L",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": null,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Maya Parker",
+      "number": "3",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": null,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Braylie Foster",
+      "number": "4",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": null,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Morgan Brown",
+      "number": "18",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": null,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Adeline Sowers",
+      "number": "2",
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": null,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Gabriella Woodie",
+      "number": null,
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": null,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Aaliyah Gerdes",
+      "number": null,
+      "position": "",
+      "height": null,
+      "bats": "R",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": null,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    }
+  ],
+  "schedule": [],
+  "coaches": [
+    {
+      "name": "Maddy Twymon",
+      "position": "Head Coach",
+      "email": "miamivalleyxpress2016@gmail.com",
+      "phone": "513-879-3298",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Olivia Lee",
+      "position": "Asst Coach",
+      "email": "",
+      "phone": "937-207-5992",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Samantha Turner",
+      "position": "Asst Coach",
+      "email": "",
+      "phone": "937-284-3588",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    }
+  ]
+}

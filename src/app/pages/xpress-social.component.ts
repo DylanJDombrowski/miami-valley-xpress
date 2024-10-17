@@ -1,17 +1,15 @@
 import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
+import { NavigationComponent } from '../components/navigation.component';
 
 @Component({
   selector: 'app-xpress-social',
   standalone: true,
   template: `
+    <app-navigation></app-navigation>
     <div class="xpress-social-container">
       <div #twitterContainer></div>
     </div>
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   `,
   styles: [
     `
@@ -22,6 +20,7 @@ import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
       }
     `,
   ],
+  imports: [NavigationComponent],
 })
 export class XpressSocialComponent implements AfterViewInit {
   @ViewChild('twitterContainer') twitterContainer!: ElementRef;
