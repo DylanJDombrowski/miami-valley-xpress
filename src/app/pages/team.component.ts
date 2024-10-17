@@ -116,7 +116,7 @@ import { HttpClient } from '@angular/common/http';
       <!-- Schedule Section -->
       <div id="Schedule">
         <h2 class="text-3xl font-semibold text-primary my-8 px-4">
-          {{ team?.year ?? '' }} {{ team?.year ?? '' }} Schedule
+          {{ team?.year ?? '' }} Schedule
         </h2>
         <div class="overflow-x-auto px-4">
           <table class="w-full mb-8 bg-white rounded-lg shadow-md">

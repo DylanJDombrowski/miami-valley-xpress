@@ -44,11 +44,9 @@
               "outputHashing": "all"
             },
             "development": {
-              "buildOptions": {
-                "optimization": false,
-                "extractLicenses": false,
-                "sourceMap": true
-              }
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
             }
           },
           "defaultConfiguration": "production"

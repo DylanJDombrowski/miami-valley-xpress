@@ -1,0 +1,213 @@
+{
+  "id": "18u",
+  "name": "Miami Valley Xpress 18U",
+  "year": 2024,
+  "teamImageUrl": "",
+  "players": [
+    {
+      "name": "Alisha Fox",
+      "number": "28",
+      "position": "Pitcher",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Mason, Ohio",
+      "school": "Mason",
+      "gradYear": 2025,
+      "gpa": 3.8,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Annabelle Geiser",
+      "number": "6",
+      "position": "OF/1st",
+      "height": "",
+      "bats": "L",
+      "throws": "L",
+      "town": "Mason, Ohio",
+      "school": "Mason",
+      "gradYear": 2025,
+      "gpa": 3.78,
+      "status": null,
+      "twitter": "annabgeiser",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Bella Miller",
+      "number": "42",
+      "position": "Catcher",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Springboro, Ohio",
+      "school": "Springboro",
+      "gradYear": 2026,
+      "gpa": 3.5,
+      "status": null,
+      "twitter": "isabell422026",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Chloe Dollar",
+      "number": "1",
+      "position": "OF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Cincinnati, Ohio",
+      "school": "Walnut Hills",
+      "gradYear": 2025,
+      "gpa": 3.8,
+      "status": null,
+      "twitter": "chloedollar_",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Evelyn Henson",
+      "number": "13",
+      "position": "IF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Trenton, Ohio",
+      "school": "Edgewood",
+      "gradYear": 2025,
+      "gpa": 3.2,
+      "status": null,
+      "twitter": "EvelynHenson15",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Katelyn Jonas",
+      "number": "11",
+      "position": "Pitcher",
+      "height": "",
+      "bats": "x",
+      "throws": "R",
+      "town": "Springboro, Ohio",
+      "school": "Springboro",
+      "gradYear": 2025,
+      "gpa": 4.0,
+      "status": null,
+      "twitter": "katelynjonas07",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Kenzie Anderson",
+      "number": "12",
+      "position": "IF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Loveland, Ohio",
+      "school": "Loveland",
+      "gradYear": 2025,
+      "gpa": 3.6,
+      "status": null,
+      "twitter": "kenzieandrson",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Mckenna Manley",
+      "number": "15",
+      "position": "OF/IF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Loveland, Ohio",
+      "school": "Mt. Notre Dame",
+      "gradYear": 2025,
+      "gpa": 3.5,
+      "status": null,
+      "twitter": "mcmanley2025",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Riley Bakan",
+      "number": "27",
+      "position": "Catcher/1st",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Centerville, Ohio",
+      "school": "Centerville",
+      "gradYear": 2026,
+      "gpa": 4.4,
+      "status": null,
+      "twitter": "rileybakan27",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Abby Phelps",
+      "number": "26",
+      "position": "OF/IF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Madison",
+      "school": "",
+      "gradYear": 2026,
+      "gpa": null,
+      "status": null,
+      "twitter": null,
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2023-09-21",
+      "sanction": "N/A",
+      "eventName": "Mojo Invite",
+      "location": "Dayton"
+    },
+    {
+      "date": "2023-10-05",
+      "sanction": "D1",
+      "eventName": "Fall Brawl-Outlaws",
+      "location": "Columbus"
+    },
+    {
+      "date": "2023-10-19",
+      "sanction": "N/A",
+      "eventName": "Finesse Invite",
+      "location": "Columbus"
+    },
+    {
+      "date": "2023-10-26",
+      "sanction": "N/A",
+      "eventName": "Stingrays",
+      "location": "Columbus"
+    },
+    {
+      "date": "2023-11-02",
+      "sanction": "PGF",
+      "eventName": "Show Me the Money",
+      "location": "Newberry, FL"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Wendell Hutchinson",
+      "position": "Head Coach",
+      "email": "",
+      "phone": "513-464-6866",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Bree Hutchinson",
+      "position": "Asst Coach",
+      "email": "",
+      "phone": "513-543-1588",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Kevin Manley",
+      "position": "Asst Coach",
+      "email": "",
+      "phone": "513-379-7092",
+      "imageUrl": "/assets/teams/defaultpfp.jpg"
+    }
+  ]
+}

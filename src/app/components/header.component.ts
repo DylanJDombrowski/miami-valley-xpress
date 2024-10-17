@@ -84,12 +84,12 @@ import { AuthService } from '../core/services/auth.service';
               >Xpress Teams</a
             >
             <ul class="absolute hidden group-hover:block bg-[#161659] p-2 z-10">
-              <li *ngFor="let year of teamYears">
+              <li *ngFor="let team of teams">
                 <a
-                  [routerLink]="['/team', year]"
+                  [routerLink]="['/team', team.id]"
                   class="hover:text-[#D29C9C] block py-1 whitespace-nowrap"
                 >
-                  Miami Valley Xpress {{ year }}
+                  {{ team.name }}
                 </a>
               </li>
             </ul>
@@ -152,54 +152,14 @@ import { AuthService } from '../core/services/auth.service';
             ></path>
           </svg>
         </button>
-        <ul class="space-y-4">
-          <li>
-            <a routerLink="/" class="hover:text-[#D29C9C] text-lg">Home</a>
-          </li>
-          <li class="relative group">
-            <a class="hover:text-[#D29C9C] cursor-pointer text-lg"
-              >Xpress Teams</a
+        <ul class="absolute hidden group-hover:block bg-[#161659] p-2 z-10">
+          <li *ngFor="let team of teams">
+            <a
+              [routerLink]="['/team', team.id]"
+              class="hover:text-[#D29C9C] block py-1 whitespace-nowrap"
             >
-            <ul class="hidden group-hover:block bg-[#161659] p-2 z-10">
-              <li *ngFor="let year of teamYears">
-                <a
-                  [routerLink]="['/team', year]"
-                  class="hover:text-[#D29C9C] block py-1 whitespace-nowrap"
-                >
-                  Xpress {{ year }}
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a routerLink="/alumni" class="hover:text-[#D29C9C] text-lg"
-              >Xpress Alumni</a
-            >
-          </li>
-          <li>
-            <a routerLink="/on-the-field" class="hover:text-[#D29C9C] text-lg"
-              >On The Field</a
-            >
-          </li>
-          <li>
-            <a routerLink="/all-aboard" class="hover:text-[#D29C9C] text-lg"
-              >All Aboard</a
-            >
-          </li>
-          <li>
-            <a routerLink="/extended-team" class="hover:text-[#D29C9C] text-lg"
-              >Our Extended Team</a
-            >
-          </li>
-          <li>
-            <a routerLink="/xpress-social" class="hover:text-[#D29C9C] text-lg"
-              >Xpress Social</a
-            >
-          </li>
-          <li *ngIf="authService.user$ | async">
-            <a routerLink="/backend-portal" class="hover:text-[#D29C9C] text-lg"
-              >Backend Portal</a
-            >
+              {{ team.name }}
+            </a>
           </li>
         </ul>
       </div>
@@ -217,7 +177,17 @@ import { AuthService } from '../core/services/auth.service';
   ],
 })
 export class HeaderComponent {
-  teamYears: number[] = Array.from({ length: 8 }, (_, i) => 2014 - i);
+  teams: { id: string; name: string }[] = [
+    { id: '18U', name: 'Miami Valley Xpress 18U' },
+    { id: '2014', name: 'Miami Valley Xpress 2014' },
+    { id: '2013', name: 'Miami Valley Xpress 2013' },
+    { id: '2012', name: 'Miami Valley Xpress 2012' },
+    { id: '2011', name: 'Miami Valley Xpress 2011' },
+    { id: '2010', name: 'Miami Valley Xpress 2010' },
+    { id: '2009', name: 'Miami Valley Xpress 2009' },
+    { id: '2008', name: 'Miami Valley Xpress 2008' },
+    { id: '2007', name: 'Miami Valley Xpress 2007' },
+  ];
   isMobileMenuOpen = false;
 
   constructor(public authService: AuthService) {}
