@@ -53,7 +53,7 @@ import { HttpClient } from '@angular/common/http';
                 [src]="getImageUrl(player.imageUrl)"
                 [alt]="player.name"
                 (error)="player.imageUrl = 'assets/teams/defaultpfp.jpg'"
-                class="w-full h-64 object-cover"
+                class="w-full h-70 object-cover"
                 [ngStyle]="
                   getPlayerImageStyle(
                     team?.id ?? '',
