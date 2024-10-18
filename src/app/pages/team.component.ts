@@ -193,6 +193,20 @@ export class TeamComponent implements OnInit {
       '2013-21': { objectPosition: '50% 35%' },
       '2013-22': { objectPosition: '50% 35%' },
       '2013-99': { objectPosition: '50% 40%' },
+
+      //2007
+      '2007-00': { objectPosition: '50% 40%' },
+      '2007-2': { objectPosition: '50% 35%' },
+      '2007-3': { objectPosition: '35% 40%' },
+      '2007-4': { objectPosition: '50% 40%' },
+      '2007-7': { objectPosition: '50% 40%' },
+      '2007-8': { objectPosition: '50% 40%' },
+      '2007-9': { objectPosition: '50% 40%' },
+      '2007-13': { objectPosition: '50% 40%' },
+      '2007-14': { objectPosition: '50% 40%' },
+      '2007-31': { objectPosition: '50% 40%' },
+      '2007-33': { objectPosition: '50% 40%' },
+      '2007-44': { objectPosition: '50% 40%' },
     };
 
     return adjustments[key] || { objectPosition: '50% 50%' };
