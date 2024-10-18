@@ -1,208 +1,189 @@
 {
   "id": "2010",
   "name": "Miami Valley Xpress 2010",
-  "year": 2023,
+  "year": 2024,
   "teamImageUrl": "",
   "players": [
     {
       "name": "Alexus Sommer",
       "number": "00",
       "position": "IF/OF",
-      "height": "5'5\"",
+      "height": "5'5",
       "bats": "R",
       "throws": "R",
       "town": "Bright, IN",
       "school": "East Central",
       "gradYear": 2028,
       "gpa": 4.0,
-      "status": null,
       "twitter": "AlexusSommer00",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/00.png"
     },
     {
       "name": "Caitlyn Belcher",
       "number": "4",
       "position": "P/IF",
-      "height": "5'6\"",
+      "height": "5'6",
       "bats": "R",
       "throws": "R",
       "town": "Centerville, OH",
       "school": "Centerville",
       "gradYear": 2028,
       "gpa": 3.8,
-      "status": null,
       "twitter": "caitlynbelcher4",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/4.png"
     },
     {
       "name": "Bailey Young",
       "number": "22",
       "position": "C/IF",
-      "height": "5'6\"",
+      "height": "5'6",
       "bats": "R",
       "throws": "R",
       "town": "Kettering, OH",
       "school": "Fairmont",
       "gradYear": 2028,
       "gpa": 3.8,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/22.png"
     },
     {
       "name": "Eva Farfsing",
       "number": "14",
       "position": "C/IF",
-      "height": "5'6\"",
+      "height": "5'6",
       "bats": "R",
       "throws": "R",
       "town": "Loveland",
       "school": "Little Miami",
       "gradYear": 2029,
       "gpa": 3.93,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/14.png"
     },
     {
       "name": "Alexis Fera",
       "number": "2",
       "position": "P/IF",
-      "height": "5'10\"",
+      "height": "5'10",
       "bats": "R",
       "throws": "R",
       "town": "Mason",
       "school": "Kings",
       "gradYear": 2028,
       "gpa": 4.0,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/2.png"
     },
     {
       "name": "Brianna McFarland",
       "number": "6",
       "position": "P/IF",
-      "height": "5'6\"",
+      "height": "5'6",
       "bats": "R",
       "throws": "R",
       "town": "Vandalia",
       "school": "Vandalia Butler",
       "gradYear": 2028,
       "gpa": 4.0,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/6.png"
     },
     {
       "name": "Shelby Cotterman",
       "number": "9",
       "position": "IF/OF",
-      "height": "5'6\"",
+      "height": "5'6",
       "bats": "R",
       "throws": "R",
       "town": "Centerville",
       "school": "Centerville",
       "gradYear": 2029,
       "gpa": 3.8,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/9.png"
     },
     {
       "name": "Kenley Bakan",
       "number": "10",
       "position": "IF/OF",
-      "height": "5'6\"",
+      "height": "5'6",
       "bats": "L",
       "throws": "R",
       "town": "Centerville",
       "school": "Centerville",
       "gradYear": 2029,
       "gpa": 4.0,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/10.png"
     },
     {
       "name": "Autumn Singleton",
       "number": "8",
       "position": "C/IF",
-      "height": "5'5\"",
+      "height": "5'5",
       "bats": "R",
       "throws": "R",
       "town": "Germantown",
       "school": "Madison",
       "gradYear": 2029,
       "gpa": 3.6,
-      "status": null,
       "twitter": "ASingleton_8",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/8.png"
     },
     {
       "name": "Julia Shaw",
       "number": "15",
       "position": "OF/IF/C",
-      "height": "5'4\"",
+      "height": "5'4",
       "bats": "L",
       "throws": "R",
       "town": "Springfield",
       "school": "Northwestern",
       "gradYear": 2028,
       "gpa": 3.9,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/15.png"
     },
     {
       "name": "Rory Carpenter",
       "number": "99",
       "position": "IF/OF",
-      "height": "5'8\"",
+      "height": "5'8",
       "bats": "R",
       "throws": "R",
       "town": "Lebanon",
       "school": "Lebanon",
       "gradYear": 2028,
       "gpa": 3.8,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2010/99.png"
     }
   ],
   "schedule": [
     {
-      "date": "8/31-9/2",
+      "date": "August 31st, 2024",
       "sanction": "PGF",
       "eventName": "PGF Labor Day",
       "location": "Crown Point"
     },
     {
-      "date": "9/21-9/22",
+      "date": "September 21st, 2024",
       "sanction": "Showcase",
       "eventName": "Mojo Elite Showcase",
       "location": "Action Sports"
     },
     {
-      "date": "10/5-10/6",
+      "date": "October 5th, 2024",
       "sanction": "Showcase",
       "eventName": "Fall Brawl",
       "location": "Berliner"
     },
     {
-      "date": "10/12-10/13",
+      "date": "October 12th, 2024",
       "sanction": "PGF",
       "eventName": "Diamond Direction Cash Tourney",
       "location": "South Carolina"
     },
     {
-      "date": "10/26-10/27",
+      "date": "October 26th, 2024",
       "sanction": "Showcase",
       "eventName": "Stingrays",
       "location": "Columbus"
     },
     {
-      "date": "11/1-11/3",
+      "date": "November 1st, 2024",
       "sanction": "Showcase",
       "eventName": "Show Me The Money",
       "location": "Florida"
@@ -213,21 +194,21 @@
       "name": "Brianna Hutchinson",
       "position": "Head Coach",
       "email": "mvxpress2010@gmail.com",
-      "phone": "513-543-1588",
+      "phone": "5135431588",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Wendell Hutchinson",
       "position": "Asst Coach",
       "email": "mvxpress2010@gmail.com",
-      "phone": "513-464-6866",
+      "phone": "5134646866",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Jason Belcher",
       "position": "Asst Coach",
       "email": "mvxpress2010@gmail.com",
-      "phone": "937-470-7899",
+      "phone": "9374707899",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]

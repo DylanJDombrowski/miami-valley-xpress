@@ -1,7 +1,7 @@
 {
   "id": "2009",
   "name": "Miami Valley Xpress 2009",
-  "year": 2023,
+  "year": 2024,
   "teamImageUrl": "",
   "players": [
     {
@@ -14,175 +14,139 @@
       "town": "Troy",
       "school": "Troy",
       "gradYear": 2028,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/5.png"
     },
     {
       "name": "Aubrey Davis",
       "number": "4",
       "position": "P/OF",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Tipp",
       "school": "Tipp",
       "gradYear": 2028,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/4.png"
     },
     {
       "name": "Sophia Knife",
       "number": "15",
       "position": "P/OF",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Troy",
       "school": "Troy",
       "gradYear": 2027,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/15.png"
     },
     {
       "name": "Lilly King",
       "number": "12",
       "position": "2nd/OF/SS",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Tipp",
       "school": "Tipp",
       "gradYear": 2028,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/12.png"
     },
     {
       "name": "Kaitlynn Price",
       "number": "22",
       "position": "1st/3rd/OF",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Troy",
       "school": "Troy",
       "gradYear": 2027,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/22.png"
     },
     {
       "name": "Brynnasen Fiely",
       "number": "14",
       "position": "2nd/OF",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Troy",
       "school": "Newton",
       "gradYear": 2028,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/14.png"
     },
     {
       "name": "Myla Bowman",
       "number": "72",
       "position": "OF",
-      "height": null,
+      "height": "",
       "bats": "L",
       "throws": "L",
       "town": "Castown",
       "school": "Miami East",
       "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/72.png"
     },
     {
       "name": "Sofia Jones",
-      "number": "0",
+      "number": "00",
       "position": "SS/2nd/OF",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Englewood",
       "school": "Northmont",
       "gradYear": 2028,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/00.png"
     },
     {
       "name": "Riley Thomas",
       "number": "44",
       "position": "3rd/1st/OF",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Greenville",
       "school": "Greenville",
       "gradYear": 2028,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/44.png"
     },
     {
       "name": "Sarah Zickafoose",
       "number": "18",
       "position": "P/1st",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Troy",
       "school": "Troy",
       "gradYear": 2027,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/18.png"
     },
     {
       "name": "Gabrielle Watkins",
       "number": "20",
       "position": "C",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Piqua",
       "school": "Piqua",
       "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/20.png"
     },
     {
       "name": "Kayleigh Deeter",
       "number": "7",
       "position": "C/of",
-      "height": null,
+      "height": "",
       "bats": "R",
       "throws": "R",
       "town": "Covington",
-      "school": "covington",
+      "school": "Covington",
       "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2009/7.png"
     }
   ],
   "schedule": [],
@@ -203,14 +167,14 @@
     },
     {
       "name": "Frank Price",
-      "position": "Asst",
+      "position": "Asst Coach",
       "email": "fprice0822@gmail.com",
       "phone": "9372163048",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Scott Jones",
-      "position": "Asst",
+      "position": "Asst Coach",
       "email": "sjones1973@yahoo.com",
       "phone": "9372871706",
       "imageUrl": "assets/teams/defaultpfp.jpg"
