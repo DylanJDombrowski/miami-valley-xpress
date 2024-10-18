@@ -182,6 +182,9 @@ export class TeamComponent implements OnInit {
       '2015-24': { objectPosition: '50% 40%' },
       '2015-11': { objectPosition: '50% 40%' },
 
+      //2014
+      '2014-11': { objectPosition: '50% 40%' },
+
       //2013
       '2013-1': { objectPosition: '50% 40%' },
       '2013-3': { objectPosition: '50% 40%' },

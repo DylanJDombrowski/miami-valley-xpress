@@ -1,7 +1,7 @@
 {
   "id": "2014",
-  "name": "Xpress 2014",
-  "year": 2023,
+  "name": "Miami Valley Xpress 2014",
+  "year": 2024,
   "teamImageUrl": "",
   "players": [
     {
@@ -14,25 +14,19 @@
       "town": "Kettering",
       "school": "",
       "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2014/1.png"
     },
     {
-      "name": "Violet Thompson",
-      "number": "2",
+      "name": "Addilyn Graham",
+      "number": "3",
       "position": "",
       "height": "",
       "bats": "R",
       "throws": "R",
-      "town": "Kettering",
+      "town": "Miamisburg",
       "school": "",
-      "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "gradYear": 2033,
+      "imageUrl": "assets/teams/2014/3.png"
     },
     {
       "name": "Parker Williams",
@@ -44,25 +38,31 @@
       "town": "West Carrollton",
       "school": "",
       "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2014/4.png"
     },
     {
-      "name": "Harper Tindall",
+      "name": "Elle Gibson",
       "number": "7",
       "position": "",
       "height": "",
       "bats": "R",
       "throws": "R",
-      "town": "Fairborn",
+      "town": "Wilmington",
       "school": "",
       "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2014/7.png"
+    },
+    {
+      "name": "Addyson Wendling",
+      "number": "9",
+      "position": "",
+      "height": "",
+      "bats": "L",
+      "throws": "L",
+      "town": "Springboro",
+      "school": "",
+      "gradYear": 2033,
+      "imageUrl": "assets/teams/2014/9.png"
     },
     {
       "name": "Avery McVicar",
@@ -74,25 +74,7 @@
       "town": "Kettering",
       "school": "",
       "gradYear": 2033,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Harper Haines",
-      "number": "11",
-      "position": "",
-      "height": "",
-      "bats": "L",
-      "throws": "L",
-      "town": "Blanchester",
-      "school": "",
-      "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2014/10.png"
     },
     {
       "name": "Audrey McVicar",
@@ -104,84 +86,75 @@
       "town": "Kettering",
       "school": "",
       "gradYear": 2033,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2014/12.png"
     },
     {
-      "name": "Galina Walden",
-      "number": "22",
+      "name": "Carolina Miller",
+      "number": "88",
       "position": "",
       "height": "",
       "bats": "R",
       "throws": "R",
-      "town": "Middletown",
+      "town": "Arcanum",
       "school": "",
-      "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "gradYear": 2033,
+      "imageUrl": "assets/teams/2014/88.png"
     },
     {
-      "name": "Avery Hall",
-      "number": "23",
+      "name": "Ashlynn Naegel",
+      "number": "00",
       "position": "",
       "height": "",
       "bats": "R",
       "throws": "R",
-      "town": "Madison Township",
+      "town": "West Chester",
       "school": "",
       "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Remi Lewis",
-      "number": "36",
-      "position": "",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Miamisburg",
-      "school": "",
-      "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Ella Hall",
-      "number": "44",
-      "position": "",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Madison Township",
-      "school": "",
-      "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2014/00.png"
     }
   ],
   "schedule": [
     {
-      "date": "2023-08-20",
-      "sanction": "N/A",
-      "eventName": "Lebanon B/C league",
-      "location": "Lebanon, OH"
+      "date": "August 25th, 2024",
+      "sanction": "",
+      "eventName": "Lebanon Fall League",
+      "location": "Lebanon"
     },
     {
-      "date": "2023-10-07",
+      "date": "September 28th, 2024",
       "sanction": "USSSA",
-      "eventName": "Fall Frenzy #6",
-      "location": "Rowe Sports Complex"
+      "eventName": "Pinktoberfest",
+      "location": "Springfield"
+    },
+    {
+      "date": "October 19th, 2024",
+      "sanction": "USSSA",
+      "eventName": "Cauldron Queens",
+      "location": "West Milton"
+    },
+    {
+      "date": "October 12th, 2024",
+      "sanction": "",
+      "eventName": "Lasers Showcase",
+      "location": "Columbus"
+    },
+    {
+      "date": "April 5th, 2025",
+      "sanction": "USSSA",
+      "eventName": "Angels 4 Autism A/B",
+      "location": "Columbus"
+    },
+    {
+      "date": "May 1st, 2025",
+      "sanction": "",
+      "eventName": "Jerry Myers Firefighters Memorial",
+      "location": "Columbus"
+    },
+    {
+      "date": "June 6th, 2025",
+      "sanction": "USSSA",
+      "eventName": "Southern State A/B",
+      "location": "Dayton"
     }
   ],
   "coaches": [
@@ -189,14 +162,21 @@
       "name": "Brandon Nichols",
       "position": "Head Coach",
       "email": "mvxpress2014@gmail.com",
-      "phone": "937-768-3144",
+      "phone": "9377683144",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
-      "name": "Shane Hall",
+      "name": "Summer Naegel",
       "position": "Asst Coach",
-      "email": "shane@1800blacktopohio.com",
-      "phone": "513-571-4551",
+      "email": "mvxpress2014@gmail.com",
+      "phone": "6196471608",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Jason Williams",
+      "position": "Asst Coach",
+      "email": "mvxpress2014@gmail.com",
+      "phone": "9377651003",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
