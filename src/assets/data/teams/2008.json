@@ -1,7 +1,7 @@
 {
   "id": "2008",
   "name": "Miami Valley Xpress 2008",
-  "year": 2023,
+  "year": 2024,
   "teamImageUrl": "",
   "players": [
     {
@@ -15,9 +15,8 @@
       "school": "Western Brown",
       "gradYear": 2026,
       "gpa": null,
-      "status": null,
-      "twitter": "@teamedgefa65",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "teamedgefa65",
+      "imageUrl": "assets/teams/2008/2.png"
     },
     {
       "name": "Teagan Bordenkircher",
@@ -30,9 +29,8 @@
       "school": "Pendleton Heights",
       "gradYear": 2026,
       "gpa": 3.9,
-      "status": null,
-      "twitter": "@teaganjean2026",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "teaganjean2026",
+      "imageUrl": "assets/teams/2008/10.jpg"
     },
     {
       "name": "Maddi Robinson",
@@ -45,9 +43,8 @@
       "school": "Mount Notre Dame",
       "gradYear": 2027,
       "gpa": null,
-      "status": null,
-      "twitter": "@maddirobinson12",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "maddirobinson12",
+      "imageUrl": "assets/teams/2008/12.png"
     },
     {
       "name": "Alivia Rupp",
@@ -60,9 +57,8 @@
       "school": "Hamilton",
       "gradYear": 2026,
       "gpa": 4.0,
-      "status": null,
-      "twitter": "@aliviarupp",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "aliviarupp",
+      "imageUrl": "assets/teams/2008/14.png"
     },
     {
       "name": "Mariem Mezni",
@@ -75,9 +71,8 @@
       "school": "Chaminade Julienne",
       "gradYear": 2028,
       "gpa": 4.0,
-      "status": null,
-      "twitter": "@mariemmezni09",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "mariemmezni09",
+      "imageUrl": "assets/teams/2008/20.png"
     },
     {
       "name": "Aubrey Coffey",
@@ -90,9 +85,8 @@
       "school": "Springboro",
       "gradYear": 2027,
       "gpa": 4.0,
-      "status": null,
-      "twitter": "@aubreycoffey22",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "aubreycoffey22",
+      "imageUrl": "assets/teams/2008/22.png"
     },
     {
       "name": "Mia Koogler",
@@ -105,9 +99,8 @@
       "school": "Northmont",
       "gradYear": 2027,
       "gpa": 3.8,
-      "status": null,
-      "twitter": "@miakoogler23",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "miakoogler23",
+      "imageUrl": "assets/teams/2008/23.png"
     },
     {
       "name": "Amara Erbaugh",
@@ -120,9 +113,8 @@
       "school": "Troy",
       "gradYear": 2026,
       "gpa": 3.4,
-      "status": null,
-      "twitter": "@amaraerbaugh",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "amaraerbaugh",
+      "imageUrl": "assets/teams/2008/27.png"
     },
     {
       "name": "Sydney Powell",
@@ -135,9 +127,8 @@
       "school": "Kings",
       "gradYear": 2027,
       "gpa": null,
-      "status": null,
-      "twitter": "@svpowell55",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "svpowell55",
+      "imageUrl": "assets/teams/2008/55.png"
     },
     {
       "name": "Leigha Combs",
@@ -150,9 +141,8 @@
       "school": "Edgewood",
       "gradYear": 2026,
       "gpa": 3.9,
-      "status": null,
-      "twitter": "@leighacombs88",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "leighacombs88",
+      "imageUrl": "assets/teams/2008/88.png"
     },
     {
       "name": "Zoey Anyanwu",
@@ -165,9 +155,8 @@
       "school": "Northmont",
       "gradYear": 2027,
       "gpa": 3.86,
-      "status": null,
-      "twitter": "@zoeyanyanwu",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "zoeyanyanwu",
+      "imageUrl": "assets/teams/2008/99.png"
     },
     {
       "name": "Mackenzie Cake",
@@ -180,9 +169,8 @@
       "school": "Western Brown",
       "gradYear": 2026,
       "gpa": null,
-      "status": null,
-      "twitter": "@cake_mackenzie",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "cake_mackenzie",
+      "imageUrl": "assets/teams/2008/32.png"
     }
   ],
   "schedule": [],
@@ -191,27 +179,27 @@
       "name": "Rodney Coffey",
       "position": "Head Coach",
       "email": "boropanthersoftball@gmail.com",
-      "phone": "937.241.9177",
+      "phone": "9372419177",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Hannah Brown",
       "position": "Asst Coach",
-      "email": "",
+      "email": "boropanthersoftball@gmail.com",
       "phone": "",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Gabby Hougan",
       "position": "Asst Coach",
-      "email": "",
+      "email": "boropanthersoftball@gmail.com",
       "phone": "",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Amy Anyanwu",
       "position": "Asst Coach",
-      "email": "",
+      "email": "boropanthersoftball@gmail.com",
       "phone": "",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     }

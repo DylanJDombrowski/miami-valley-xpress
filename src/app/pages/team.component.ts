@@ -21,13 +21,14 @@ import { HttpClient } from '@angular/common/http';
 
     <div class="container mx-auto py-8">
       <!-- Team Image (smaller for mobile) -->
-      <div class="mb-6">
-        <img
-          *ngIf="team?.teamImageUrl"
-          [src]="team?.teamImageUrl"
-          alt="{{ team?.name }}"
-          class="mx-auto h-32 sm:h-64 object-cover rounded-lg shadow-md"
-        />
+      <div *ngIf="team?.teamImageUrl" class="mb-8">
+        <div class="relative w-full" style="padding-top: 40%;">
+          <img
+            [src]="team?.teamImageUrl"
+            alt="{{ team?.name }}"
+            class="absolute top-0 left-0 w-full h-full object-cover rounded-lg shadow-md"
+          />
+        </div>
       </div>
 
       <!-- Roster Section -->
@@ -44,12 +45,21 @@ import { HttpClient } from '@angular/common/http';
             *ngFor="let player of team?.players"
             class="card bg-white rounded-lg shadow-lg overflow-hidden"
           >
-            <div class="relative">
+            <div
+              class="relative overflow-hidden"
+              [id]="'player-image-' + player.number"
+            >
               <img
                 [src]="getImageUrl(player.imageUrl)"
                 [alt]="player.name"
                 (error)="player.imageUrl = 'assets/teams/defaultpfp.jpg'"
                 class="w-full h-64 object-cover"
+                [ngStyle]="
+                  getPlayerImageStyle(
+                    team?.id ?? '',
+                    player.number?.toString() ?? ''
+                  )
+                "
                 loading="lazy"
               />
               <div
@@ -209,6 +219,126 @@ export class TeamComponent implements OnInit {
         imageUrl: this.getImageUrl(coach.imageUrl),
       }));
     }
+  }
+
+  getPlayerImageStyle(
+    teamId: string,
+    playerNumber: string
+  ): { [klass: string]: any } {
+    const key = `${teamId}-${playerNumber}`;
+    const adjustments: { [key: string]: { objectPosition: string } } = {
+      //2015
+      '2015-8': { objectPosition: '50% 40%' },
+      '2015-15': { objectPosition: '50% 30%' },
+      '2015-4': { objectPosition: '50% 40%' },
+      '2015-1': { objectPosition: '50% 40%' },
+      '2015-9': { objectPosition: '50% 40%' },
+      '2015-2': { objectPosition: '50% 40%' },
+      '2015-3': { objectPosition: '50% 40%' },
+      '2015-14': { objectPosition: '50% 40%' },
+      '2015-24': { objectPosition: '50% 40%' },
+      '2015-11': { objectPosition: '50% 40%' },
+
+      //2014
+      '2014-1': { objectPosition: '50% 40%' },
+      '2014-3': { objectPosition: '50% 40%' },
+      '2014-4': { objectPosition: '50% 40%' },
+      '2014-7': { objectPosition: '50% 40%' },
+      '2014-9': { objectPosition: '50% 40%' },
+      '2014-10': { objectPosition: '50% 40%' },
+      '2014-12': { objectPosition: '50% 40%' },
+      '2014-88': { objectPosition: '50% 40%' },
+      '2014-00': { objectPosition: '50% 40%' },
+
+      //2013
+      '2013-1': { objectPosition: '50% 40%' },
+      '2013-3': { objectPosition: '50% 40%' },
+      '2013-4': { objectPosition: '50% 40%' },
+      '2013-12': { objectPosition: '50% 35%' },
+      '2013-13': { objectPosition: '50% 35%' },
+      '2013-16': { objectPosition: '50% 40%' },
+      '2013-21': { objectPosition: '50% 35%' },
+      '2013-22': { objectPosition: '50% 35%' },
+      '2013-99': { objectPosition: '50% 40%' },
+
+      // 2012
+      '2012-4': { objectPosition: '50% 40%' },
+      '2012-10': { objectPosition: '50% 40%' },
+      '2012-31': { objectPosition: '50% 40%' },
+      '2012-42': { objectPosition: '50% 40%' },
+      '2012-16': { objectPosition: '50% 40%' },
+      '2012-24': { objectPosition: '50% 40%' },
+      '2012-6': { objectPosition: '50% 40%' },
+      '2012-11': { objectPosition: '50% 40%' },
+
+      //2011
+      '2011-16': { objectPosition: '50% 40%' },
+      '2011-44': { objectPosition: '50% 40%' },
+      '2011-42': { objectPosition: '50% 40%' },
+      '2011-22': { objectPosition: '50% 40%' },
+      '2011-77': { objectPosition: '50% 40%' },
+      '2011-6': { objectPosition: '50% 40%' },
+      '2011-3': { objectPosition: '50% 40%' },
+      '2011-25': { objectPosition: '50% 40%' },
+      '2011-00': { objectPosition: '50% 40%' },
+      '2011-17': { objectPosition: '50% 40%' },
+      '2011-13': { objectPosition: '50% 40%' },
+      '2011-11': { objectPosition: '50% 40%' },
+      //2010
+      '2010-00': { objectPosition: '50% 40%' },
+      '2010-4': { objectPosition: '50% 40%' },
+      '2010-22': { objectPosition: '50% 40%' },
+      '2010-14': { objectPosition: '50% 40%' },
+      '2010-2': { objectPosition: '50% 40%' },
+      '2010-6': { objectPosition: '50% 40%' },
+      '2010-9': { objectPosition: '50% 40%' },
+      '2010-10': { objectPosition: '50% 40%' },
+      '2010-8': { objectPosition: '50% 40%' },
+      '2010-15': { objectPosition: '50% 40%' },
+      '2010-99': { objectPosition: '50% 40%' },
+
+      //2009
+      '2009-5': { objectPosition: '50% 40%' },
+      '2009-4': { objectPosition: '50% 40%' },
+      '2009-15': { objectPosition: '50% 40%' },
+      '2009-12': { objectPosition: '50% 40%' },
+      '2009-22': { objectPosition: '50% 40%' },
+      '2009-14': { objectPosition: '50% 40%' },
+      '2009-00': { objectPosition: '50% 40%' },
+      '2009-44': { objectPosition: '50% 40%' },
+      '2009-18': { objectPosition: '50% 40%' },
+      '2009-20': { objectPosition: '50% 40%' },
+
+      //2008
+      '2008-2': { objectPosition: '50% 40%' },
+      '2008-10': { objectPosition: '50% 10%' },
+      '2008-12': { objectPosition: '50% 40%' },
+      '2008-14': { objectPosition: '50% 40%' },
+      '2008-20': { objectPosition: '50% 40%' },
+      '2008-22': { objectPosition: '50% 40%' },
+      '2008-23': { objectPosition: '50% 40%' },
+      '2008-27': { objectPosition: '50% 40%' },
+      '2008-55': { objectPosition: '50% 40%' },
+      '2008-88': { objectPosition: '50% 40%' },
+      '2008-99': { objectPosition: '50% 40%' },
+      '2008-32': { objectPosition: '50% 40%' },
+
+      //2007
+      '2007-00': { objectPosition: '50% 40%' },
+      '2007-2': { objectPosition: '50% 35%' },
+      '2007-3': { objectPosition: '35% 40%' },
+      '2007-4': { objectPosition: '50% 40%' },
+      '2007-7': { objectPosition: '50% 40%' },
+      '2007-8': { objectPosition: '50% 40%' },
+      '2007-9': { objectPosition: '50% 40%' },
+      '2007-13': { objectPosition: '50% 40%' },
+      '2007-14': { objectPosition: '50% 40%' },
+      '2007-31': { objectPosition: '50% 40%' },
+      '2007-33': { objectPosition: '50% 40%' },
+      '2007-44': { objectPosition: '50% 40%' },
+    };
+
+    return adjustments[key] || { objectPosition: '50% 50%' };
   }
 
   getImageUrl(url: string): string {

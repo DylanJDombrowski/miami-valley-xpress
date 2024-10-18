@@ -1,5 +1,5 @@
 {
-  "id": "18u",
+  "id": "2006",
   "name": "Miami Valley Xpress 18U",
   "year": 2024,
   "teamImageUrl": "",
@@ -15,9 +15,8 @@
       "school": "Mason",
       "gradYear": 2025,
       "gpa": 3.8,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "",
+      "imageUrl": "assets/teams/2006/28.png"
     },
     {
       "name": "Annabelle Geiser",
@@ -30,9 +29,8 @@
       "school": "Mason",
       "gradYear": 2025,
       "gpa": 3.78,
-      "status": null,
       "twitter": "annabgeiser",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2006/6.png"
     },
     {
       "name": "Bella Miller",
@@ -45,9 +43,8 @@
       "school": "Springboro",
       "gradYear": 2026,
       "gpa": 3.5,
-      "status": null,
       "twitter": "isabell422026",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2006/42.png"
     },
     {
       "name": "Chloe Dollar",
@@ -57,12 +54,11 @@
       "bats": "R",
       "throws": "R",
       "town": "Cincinnati, Ohio",
-      "school": "Walnut Hills",
+      "school": "walnut hills",
       "gradYear": 2025,
       "gpa": 3.8,
-      "status": null,
       "twitter": "chloedollar_",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2006/1.png"
     },
     {
       "name": "Evelyn Henson",
@@ -75,9 +71,8 @@
       "school": "Edgewood",
       "gradYear": 2025,
       "gpa": 3.2,
-      "status": null,
       "twitter": "EvelynHenson15",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2006/13.png"
     },
     {
       "name": "Katelyn Jonas",
@@ -89,10 +84,9 @@
       "town": "Springboro, Ohio",
       "school": "Springboro",
       "gradYear": 2025,
-      "gpa": 4.0,
-      "status": null,
+      "gpa": 4,
       "twitter": "katelynjonas07",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2006/11.png"
     },
     {
       "name": "Kenzie Anderson",
@@ -105,9 +99,8 @@
       "school": "Loveland",
       "gradYear": 2025,
       "gpa": 3.6,
-      "status": null,
-      "twitter": "kenzieandrson",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "kenzieandrsn",
+      "imageUrl": "assets/teams/2006/12.png"
     },
     {
       "name": "Mckenna Manley",
@@ -120,9 +113,8 @@
       "school": "Mt. Notre Dame",
       "gradYear": 2025,
       "gpa": 3.5,
-      "status": null,
       "twitter": "mcmanley2025",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2006/15.png"
     },
     {
       "name": "Riley Bakan",
@@ -135,9 +127,8 @@
       "school": "Centerville",
       "gradYear": 2026,
       "gpa": 4.4,
-      "status": null,
       "twitter": "rileybakan27",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2006/27.png"
     },
     {
       "name": "Abby Phelps",
@@ -146,42 +137,41 @@
       "height": "",
       "bats": "R",
       "throws": "R",
-      "town": "Madison",
-      "school": "",
+      "town": "",
+      "school": "Madison",
       "gradYear": 2026,
       "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "twitter": "",
+      "imageUrl": "assets/teams/2006/26.png"
     }
   ],
   "schedule": [
     {
-      "date": "2023-09-21",
-      "sanction": "N/A",
-      "eventName": "Mojo Invite",
+      "date": "September 21st, 2024",
+      "sanction": "",
+      "eventName": "MOJO INVITE",
       "location": "Dayton"
     },
     {
-      "date": "2023-10-05",
-      "sanction": "D1",
+      "date": "October 5th, 2024",
+      "sanction": "D1 showcase",
       "eventName": "Fall Brawl-Outlaws",
       "location": "Columbus"
     },
     {
-      "date": "2023-10-19",
-      "sanction": "N/A",
+      "date": "October 19th, 2024",
+      "sanction": "",
       "eventName": "Finesse Invite",
       "location": "Columbus"
     },
     {
-      "date": "2023-10-26",
-      "sanction": "N/A",
+      "date": "October 26th, 2024",
+      "sanction": "",
       "eventName": "Stingrays",
       "location": "Columbus"
     },
     {
-      "date": "2023-11-02",
+      "date": "November 2nd, 2024",
       "sanction": "PGF",
       "eventName": "Show Me the Money",
       "location": "Newberry, FL"
@@ -193,21 +183,21 @@
       "position": "Head Coach",
       "email": "",
       "phone": "513-464-6866",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Bree Hutchinson",
       "position": "Asst Coach",
       "email": "",
       "phone": "513-543-1588",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Kevin Manley",
       "position": "Asst Coach",
       "email": "",
       "phone": "513-379-7092",
-      "imageUrl": "/assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }

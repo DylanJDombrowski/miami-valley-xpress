@@ -1,84 +1,9 @@
 {
   "id": "2011",
-  "name": "Xpress 2011",
-  "year": 2023,
+  "name": "Miami Valley Xpress 2011",
+  "year": 2024,
   "teamImageUrl": "",
   "players": [
-    {
-      "name": "Nila Willen",
-      "number": "1",
-      "position": "CF",
-      "height": "",
-      "bats": "L",
-      "throws": "L",
-      "town": "Bellbrook",
-      "school": "Bellbrook",
-      "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Kadence Moore",
-      "number": "3",
-      "position": "RF, 1B",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Waynesville",
-      "school": "Waynesville",
-      "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Brianna Cole",
-      "number": "7",
-      "position": "C, OF",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Carlisle",
-      "school": "Carlisle HS",
-      "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Elizabeth Pitsch",
-      "number": "9",
-      "position": "P, SS, 1",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Monroe",
-      "school": "Monroe",
-      "gradYear": 2030,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Isabel Lewis",
-      "number": "11",
-      "position": "P, 3",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Kettering",
-      "school": "Fairmont HS",
-      "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
     {
       "name": "Tori Markland",
       "number": "16",
@@ -89,70 +14,7 @@
       "town": "Bellbrook",
       "school": "Bellbrook HS",
       "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Olivia Tabler",
-      "number": "19",
-      "position": "OF, SS",
-      "height": "",
-      "bats": "",
-      "throws": "",
-      "town": "Springboro",
-      "school": "Springboro",
-      "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Ryann West",
-      "number": "22",
-      "position": "P, 1B",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Miamisburg",
-      "school": "Miamisburg HS",
-      "gradYear": 2030,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Olivia Bernal",
-      "number": "27",
-      "position": "C, 3B, OF",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Hamilton",
-      "school": "",
-      "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Lyla Cecil",
-      "number": "42",
-      "position": "2B, OF",
-      "height": "",
-      "bats": "",
-      "throws": "",
-      "town": "Madison",
-      "school": "Madison",
-      "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2011/16.png"
     },
     {
       "name": "Lakynn Graham",
@@ -164,29 +26,178 @@
       "town": "Waynesville",
       "school": "Waynesville",
       "gradYear": 2029,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2011/44.png"
+    },
+    {
+      "name": "Lyla Cecil",
+      "number": "42",
+      "position": "2B, OF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Madison",
+      "school": "Madison",
+      "gradYear": 2029,
+      "imageUrl": "assets/teams/2011/42.png"
+    },
+    {
+      "name": "Ryann West",
+      "number": "22",
+      "position": "P, 1B",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Miamisburg",
+      "school": "Miamisburg HS",
+      "gradYear": 2030,
+      "imageUrl": "assets/teams/2011/22.png"
+    },
+    {
+      "name": "Kaitlyn Blair",
+      "number": "77",
+      "position": "P, 1B",
+      "height": "",
+      "bats": "R",
+      "throws": "L",
+      "town": "Springfield",
+      "school": "Greenon",
+      "gradYear": 2029,
+      "imageUrl": "assets/teams/2011/77.png"
+    },
+    {
+      "name": "Elliot Brown",
+      "number": "6",
+      "position": "OF, C",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Springboro",
+      "school": "Springboro HS",
+      "gradYear": 2028,
+      "imageUrl": "assets/teams/2011/6.png"
+    },
+    {
+      "name": "Alayna Faler",
+      "number": "3",
+      "position": "2B, SS, OF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Lebanon",
+      "school": "",
+      "gradYear": 2028,
+      "imageUrl": "assets/teams/2011/3.png"
+    },
+    {
+      "name": "Stella Fay",
+      "number": "25",
+      "position": "OF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Mason",
+      "school": "",
+      "gradYear": 2029,
+      "imageUrl": "assets/teams/2011/25.png"
+    },
+    {
+      "name": "Mallory Arnett",
+      "number": "00",
+      "position": "1B, P",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Brookville",
+      "school": "",
+      "gradYear": 2028,
+      "imageUrl": "assets/teams/2011/00.png"
+    },
+    {
+      "name": "Chloe Harrison",
+      "number": "17",
+      "position": "2B, SS, OF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Carlisle",
+      "school": "",
+      "gradYear": 2028,
+      "imageUrl": "assets/teams/2011/17.png"
+    },
+    {
+      "name": "Addisyn Parrett",
+      "number": "13",
+      "position": "C, 3B, OF",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Springboro",
+      "school": "",
+      "gradYear": 2028,
+      "imageUrl": "assets/teams/2011/13.png"
+    },
+    {
+      "name": "Avery Shrewsbury",
+      "number": "11",
+      "position": "2B, 3B",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "Waynesville",
+      "school": "Springboro HS",
+      "gradYear": 2028,
+      "imageUrl": "assets/teams/2011/11.png"
     }
   ],
-  "schedule": [],
+  "schedule": [
+    {
+      "date": "September 21st, 2024",
+      "sanction": "USA",
+      "eventName": "The Purge",
+      "location": "Berliner"
+    },
+    {
+      "date": "October 12th, 2024",
+      "sanction": "",
+      "eventName": "Lasers Showcase",
+      "location": "Berliner"
+    }
+  ],
   "coaches": [
     {
       "name": "Shauna West",
       "position": "Head Coach",
       "email": "mvxpress2011@gmail.com",
       "phone": "937-657-4228",
-      "imageUrl": "assets/teams/defaultpfp.jpg",
-      "shirtSize": "2XL"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
-      "name": "Chris Pitsch",
-      "position": "Asst Coach / Pitching",
-      "email": "cpitsch44@gmail.com",
-      "phone": "513-678-1184",
-      "imageUrl": "assets/teams/defaultpfp.jpg",
-      "shirtSize": "M"
+      "name": "Nick Brown",
+      "position": "Head Coach",
+      "email": "miamivalleyxpressreg2010@gmail.com",
+      "phone": "937-818-3748",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Jason Cecil",
+      "position": "Asst Coach",
+      "email": "Jasoncecil66@yahoo.com",
+      "phone": "937-838-4666",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Evan Shrewsbury",
+      "position": "Asst Coach",
+      "email": "shrewsburyintl@yahoo.com",
+      "phone": "513-301-6898",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Abby Kielholz",
+      "position": "Asst Coach / College Student",
+      "email": "amkeilholz@gmail.com",
+      "phone": "937-952-8143",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }
