@@ -183,7 +183,15 @@ export class TeamComponent implements OnInit {
       '2015-11': { objectPosition: '50% 40%' },
 
       //2014
-      '2014-11': { objectPosition: '50% 40%' },
+      '2014-1': { objectPosition: '50% 40%' },
+      '2014-3': { objectPosition: '50% 40%' },
+      '2014-4': { objectPosition: '50% 40%' },
+      '2014-7': { objectPosition: '50% 40%' },
+      '2014-9': { objectPosition: '50% 40%' },
+      '2014-10': { objectPosition: '50% 40%' },
+      '2014-12': { objectPosition: '50% 40%' },
+      '2014-88': { objectPosition: '50% 40%' },
+      '2014-00': { objectPosition: '50% 40%' },
 
       //2013
       '2013-1': { objectPosition: '50% 40%' },
@@ -205,6 +213,20 @@ export class TeamComponent implements OnInit {
       '2012-24': { objectPosition: '50% 40%' },
       '2012-6': { objectPosition: '50% 40%' },
       '2012-11': { objectPosition: '50% 40%' },
+
+      //2008
+      '2008-2': { objectPosition: '50% 40%' },
+      '2008-10': { objectPosition: '50% 10%' },
+      '2008-12': { objectPosition: '50% 40%' },
+      '2008-14': { objectPosition: '50% 40%' },
+      '2008-20': { objectPosition: '50% 40%' },
+      '2008-22': { objectPosition: '50% 40%' },
+      '2008-23': { objectPosition: '50% 40%' },
+      '2008-27': { objectPosition: '50% 40%' },
+      '2008-55': { objectPosition: '50% 40%' },
+      '2008-88': { objectPosition: '50% 40%' },
+      '2008-99': { objectPosition: '50% 40%' },
+      '2008-32': { objectPosition: '50% 40%' },
 
       //2007
       '2007-00': { objectPosition: '50% 40%' },

@@ -5,6 +5,18 @@
   "teamImageUrl": "",
   "players": [
     {
+      "name": "Ashlynn Naegel",
+      "number": "00",
+      "position": "",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "West Chester",
+      "school": "",
+      "gradYear": 2032,
+      "imageUrl": "assets/teams/2014/00.png"
+    },
+    {
       "name": "Vivienne Nichols",
       "number": "1",
       "position": "",
@@ -99,18 +111,6 @@
       "school": "",
       "gradYear": 2033,
       "imageUrl": "assets/teams/2014/88.png"
-    },
-    {
-      "name": "Ashlynn Naegel",
-      "number": "00",
-      "position": "",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "West Chester",
-      "school": "",
-      "gradYear": 2032,
-      "imageUrl": "assets/teams/2014/00.png"
     }
   ],
   "schedule": [
