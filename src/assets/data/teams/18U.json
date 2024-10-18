@@ -1,6 +1,6 @@
 {
   "id": "2006",
-  "name": "Miami Valley Xpress 2006 (18U)",
+  "name": "Miami Valley Xpress 18U",
   "year": 2024,
   "teamImageUrl": "",
   "players": [
@@ -147,31 +147,31 @@
   ],
   "schedule": [
     {
-      "date": "2024-09-21",
+      "date": "September 21st, 2024",
       "sanction": "",
       "eventName": "MOJO INVITE",
       "location": "Dayton"
     },
     {
-      "date": "2024-10-05",
+      "date": "October 5th, 2024",
       "sanction": "D1 showcase",
       "eventName": "Fall Brawl-Outlaws",
       "location": "Columbus"
     },
     {
-      "date": "2024-10-19",
+      "date": "October 19th, 2024",
       "sanction": "",
       "eventName": "Finesse Invite",
       "location": "Columbus"
     },
     {
-      "date": "2024-10-26",
+      "date": "October 26th, 2024",
       "sanction": "",
       "eventName": "Stingrays",
       "location": "Columbus"
     },
     {
-      "date": "2024-11-02",
+      "date": "November 2nd, 2024",
       "sanction": "PGF",
       "eventName": "Show Me the Money",
       "location": "Newberry, FL"
