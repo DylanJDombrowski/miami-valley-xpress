@@ -35,12 +35,13 @@ import { NavigationComponent } from '../components/navigation.component';
         <h2 class="text-3xl font-semibold text-primary mb-6 border-l-4 border-secondary pl-4">Roster</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <div *ngFor="let player of team?.players" class="card bg-white rounded-lg shadow-lg overflow-hidden">
-            <div class="relative">
+            <div class="relative overflow-hidden" [id]="'player-image-' + player.number">
               <img
                 [src]="getImageUrl(player.imageUrl)"
                 [alt]="player.name"
                 (error)="player.imageUrl = 'assets/teams/defaultpfp.jpg'"
                 class="w-full h-64 object-cover"
+                [ngStyle]="getPlayerImageStyle(team?.id ?? '', player.number?.toString() ?? '')"
                 loading="lazy"
               />
               <div class="absolute top-2 left-2 bg-primary text-white rounded-md px-2 py-1 text-sm font-bold">
@@ -167,6 +168,22 @@ export class TeamComponent implements OnInit {
         imageUrl: this.getImageUrl(coach.imageUrl),
       }));
     }
+  }
+
+  getPlayerImageStyle(teamId: string, playerNumber: string): { [klass: string]: any } {
+    const key = `${teamId}-${playerNumber}`;
+    const adjustments: { [key: string]: { objectPosition: string } } = {
+      '2012-4': { objectPosition: '50% 40%' },
+      '2012-10': { objectPosition: '50% 40%' },
+      '2012-31': { objectPosition: '50% 40%' },
+      '2012-42': { objectPosition: '50% 40%' },
+      '2012-16': { objectPosition: '50% 40%' },
+      '2012-24': { objectPosition: '50% 40%' },
+      '2012-6': { objectPosition: '50% 40%' },
+      '2012-11': { objectPosition: '50% 40%' },
+    };
+
+    return adjustments[key] || { objectPosition: '50% 50%' };
   }
 
   getImageUrl(url: string): string {
