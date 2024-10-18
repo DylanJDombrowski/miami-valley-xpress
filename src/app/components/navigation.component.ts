@@ -80,6 +80,7 @@ import { AuthService } from '../core/services/auth.service';
 export class NavigationComponent {
   teams: { id: string; name: string }[] = [
     { id: '18U', name: 'Miami Valley Xpress 18U' },
+    { id: '2015', name: 'Miami Valley Xpress 2015' },
     { id: '2014', name: 'Miami Valley Xpress 2014' },
     { id: '2013', name: 'Miami Valley Xpress 2013' },
     { id: '2012', name: 'Miami Valley Xpress 2012' },
