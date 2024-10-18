@@ -15,10 +15,10 @@ import { NavigationComponent } from './navigation.component';
         <div class="container mx-auto flex justify-between items-center">
           <div class="text-sm">mvxpresssoftballorg&#64;gmail.com</div>
           <div class="flex space-x-4">
-            <a href="#" class="text-white hover:text-accent">
+            <a href="https://www.facebook.com/miamivalleyxpress/" class="text-white hover:text-accent">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="#" class="text-white hover:text-accent">
+            <a href="https://x.com/XpressSoftball" class="text-white hover:text-accent">
               <i class="fab fa-twitter"></i>
             </a>
           </div>
