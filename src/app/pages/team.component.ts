@@ -173,6 +173,7 @@ export class TeamComponent implements OnInit {
   getPlayerImageStyle(teamId: string, playerNumber: string): { [klass: string]: any } {
     const key = `${teamId}-${playerNumber}`;
     const adjustments: { [key: string]: { objectPosition: string } } = {
+      // 2012
       '2012-4': { objectPosition: '50% 40%' },
       '2012-10': { objectPosition: '50% 40%' },
       '2012-31': { objectPosition: '50% 40%' },
@@ -181,6 +182,17 @@ export class TeamComponent implements OnInit {
       '2012-24': { objectPosition: '50% 40%' },
       '2012-6': { objectPosition: '50% 40%' },
       '2012-11': { objectPosition: '50% 40%' },
+
+      //2013
+      '2013-1': { objectPosition: '50% 40%' },
+      '2013-3': { objectPosition: '50% 40%' },
+      '2013-4': { objectPosition: '50% 40%' },
+      '2013-12': { objectPosition: '50% 35%' },
+      '2013-13': { objectPosition: '50% 35%' },
+      '2013-16': { objectPosition: '50% 40%' },
+      '2013-21': { objectPosition: '50% 35%' },
+      '2013-22': { objectPosition: '50% 35%' },
+      '2013-99': { objectPosition: '50% 40%' },
     };
 
     return adjustments[key] || { objectPosition: '50% 50%' };

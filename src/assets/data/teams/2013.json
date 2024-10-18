@@ -1,7 +1,7 @@
 {
   "id": "2013",
-  "name": "Xpress 2013",
-  "year": 2023,
+  "name": "Miami Valley Xpress 2013",
+  "year": 2024,
   "teamImageUrl": "",
   "players": [
     {
@@ -14,10 +14,19 @@
       "town": "",
       "school": "",
       "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2013/1.png"
+    },
+    {
+      "name": "Autumn Kelly",
+      "number": "3",
+      "position": "",
+      "height": "",
+      "bats": "",
+      "throws": "",
+      "town": "",
+      "school": "",
+      "gradYear": 2031,
+      "imageUrl": "assets/teams/2013/3.png"
     },
     {
       "name": "Natalie Belcher",
@@ -29,10 +38,7 @@
       "town": "",
       "school": "",
       "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2013/4.png"
     },
     {
       "name": "Marissa Stallsmith",
@@ -44,25 +50,7 @@
       "town": "",
       "school": "",
       "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Kyndal Lewis",
-      "number": "9",
-      "position": "",
-      "height": "",
-      "bats": "",
-      "throws": "",
-      "town": "",
-      "school": "",
-      "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2013/7.png"
     },
     {
       "name": "Riley Thomas",
@@ -73,11 +61,8 @@
       "throws": "",
       "town": "",
       "school": "",
-      "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "gradYear": 2031,
+      "imageUrl": "assets/teams/2013/12.png"
     },
     {
       "name": "Cailynn Honious",
@@ -88,11 +73,20 @@
       "throws": "",
       "town": "",
       "school": "",
-      "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "gradYear": 2031,
+      "imageUrl": "assets/teams/2013/13.png"
+    },
+    {
+      "name": "Ava Prioleau",
+      "number": "16",
+      "position": "",
+      "height": "",
+      "bats": "",
+      "throws": "",
+      "town": "",
+      "school": "",
+      "gradYear": 2031,
+      "imageUrl": "assets/teams/2013/16.png"
     },
     {
       "name": "Cora White",
@@ -103,11 +97,8 @@
       "throws": "",
       "town": "",
       "school": "",
-      "gradYear": 2032,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "gradYear": 2031,
+      "imageUrl": "assets/teams/2013/21.png"
     },
     {
       "name": "Kinley Gagel",
@@ -119,14 +110,11 @@
       "town": "",
       "school": "",
       "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2013/22.png"
     },
     {
-      "name": "Averie Bach",
-      "number": "24",
+      "name": "Cameron (CeCe) Piacenti",
+      "number": "99",
       "position": "",
       "height": "",
       "bats": "",
@@ -134,67 +122,27 @@
       "town": "",
       "school": "",
       "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Lexi Naranjo",
-      "number": "25",
-      "position": "",
-      "height": "",
-      "bats": "",
-      "throws": "",
-      "town": "",
-      "school": "",
-      "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Adalynne Carman",
-      "number": "33",
-      "position": "",
-      "height": "",
-      "bats": "",
-      "throws": "",
-      "town": "",
-      "school": "",
-      "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2013/99.png"
     }
   ],
   "schedule": [],
   "coaches": [
     {
-      "name": "Andrea Honious",
+      "name": "Carla Branham",
       "position": "Head Coach",
+      "email": "",
+      "phone": "",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Andrea Honious",
+      "position": "Asst Coach / Manager",
       "email": "andreahonious@gmail.com",
       "phone": "5135718159",
       "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
-      "name": "Carla Branham",
-      "position": "Asst Coach / Pitching",
-      "email": "",
-      "phone": "",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
       "name": "Dixon Chaney",
-      "position": "Asst Coach",
-      "email": "",
-      "phone": "",
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Dan White",
       "position": "Asst Coach",
       "email": "",
       "phone": "",
