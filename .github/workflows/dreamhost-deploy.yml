@@ -19,7 +19,7 @@ jobs:
           node-version: "18.x"
 
       - name: Clean install dependencies
-        run: npm ci
+        run: npm ci --registry=https://registry.npmjs.org
 
       - name: Build
         run: npm run build
