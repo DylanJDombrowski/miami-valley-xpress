@@ -1,39 +1,9 @@
 {
   "id": "2012",
-  "name": "Xpress 2012",
-  "year": 2023,
+  "name": "Miami Valley Xpress 2012",
+  "year": 2024,
   "teamImageUrl": "",
   "players": [
-    {
-      "name": "Preslyn Jones",
-      "number": "1",
-      "position": "P/SS",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "",
-      "school": "",
-      "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Taylor Tasker",
-      "number": "3",
-      "position": "P/CF/Utility",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Troy",
-      "school": "Troy",
-      "gradYear": 2030,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
     {
       "name": "Annie White",
       "number": "4",
@@ -44,25 +14,7 @@
       "town": "Kettering",
       "school": "Fairmont",
       "gradYear": 2030,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "McKenzie Manley",
-      "number": "8",
-      "position": "Utility/SS",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Madison Township",
-      "school": "",
-      "gradYear": 2030,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2012/4.png"
     },
     {
       "name": "Elly King",
@@ -74,25 +26,7 @@
       "town": "Centerville",
       "school": "Centerville",
       "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Extra Player",
-      "number": "11",
-      "position": "",
-      "height": "",
-      "bats": "",
-      "throws": "",
-      "town": "",
-      "school": "",
-      "gradYear": null,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2012/6.png"
     },
     {
       "name": "Bristol DeWitt",
@@ -104,40 +38,7 @@
       "town": "Fairborn",
       "school": "Fairborn",
       "gradYear": 2030,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Loclyn Howard",
-      "number": "13",
-      "position": "P/1B",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Vandalia",
-      "school": "Butler",
-      "gradYear": 2030,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
-    },
-    {
-      "name": "Mykenzie West",
-      "number": "23",
-      "position": "Utility",
-      "height": "",
-      "bats": "R",
-      "throws": "R",
-      "town": "Miamisburg",
-      "school": "Miamisburg",
-      "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2012/10.png"
     },
     {
       "name": "Hailey Russell",
@@ -149,10 +50,7 @@
       "town": "",
       "school": "",
       "gradYear": 2030,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2012/31.png"
     },
     {
       "name": "Kendall Young",
@@ -164,10 +62,55 @@
       "town": "Kettering",
       "school": "Fairmont",
       "gradYear": 2031,
-      "gpa": null,
-      "status": null,
-      "twitter": null,
-      "imageUrl": "assets/teams/defaultpfp.jpg"
+      "imageUrl": "assets/teams/2012/42.png"
+    },
+    {
+      "name": "Aubrey Stitzel",
+      "number": "16",
+      "position": "SS",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": 2030,
+      "imageUrl": "assets/teams/2012/16.png"
+    },
+    {
+      "name": "Ahriyia Brown",
+      "number": "24",
+      "position": "C/Utility",
+      "height": "",
+      "bats": "R",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": 2030,
+      "imageUrl": "assets/teams/2012/24.png"
+    },
+    {
+      "name": "Olivia Lane",
+      "number": "6",
+      "position": "P/1/OF",
+      "height": "",
+      "bats": "L",
+      "throws": "L",
+      "town": "",
+      "school": "",
+      "gradYear": 2031,
+      "imageUrl": "assets/teams/2012/6.png"
+    },
+    {
+      "name": "Addy Hornung",
+      "number": "11",
+      "position": "P/Utility",
+      "height": "",
+      "bats": "L",
+      "throws": "R",
+      "town": "",
+      "school": "",
+      "gradYear": 2030,
+      "imageUrl": "assets/teams/2012/11.png"
     }
   ],
   "schedule": [],
@@ -177,32 +120,21 @@
       "position": "Head Coach",
       "email": "miamivalleyexpress2012@gmail.com",
       "phone": "9379740454",
-      "imageUrl": "assets/teams/defaultpfp.jpg",
-      "shirtSize": "YXL"
-    },
-    {
-      "name": "Troy Tasker",
-      "position": "Asst Coach / Pitching",
-      "email": "miamivalleyexpress2012@gmail.com",
-      "phone": "9375736666",
-      "imageUrl": "assets/teams/defaultpfp.jpg",
-      "shirtSize": "AL"
-    },
-    {
-      "name": "Ashley Howard",
-      "position": "Manager",
-      "email": "miamivalleyexpress2012@gmail.com",
-      "phone": "9373085739",
-      "imageUrl": "assets/teams/defaultpfp.jpg",
-      "shirtSize": "AXL"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     },
     {
       "name": "Jim McCord",
       "position": "Asst Coach / Defense",
       "email": "miamivalleyexpress2012@gmail.com",
       "phone": "9379740585",
-      "imageUrl": "assets/teams/defaultpfp.jpg",
-      "shirtSize": "AL"
+      "imageUrl": "assets/teams/defaultpfp.jpg"
+    },
+    {
+      "name": "Tori Mcpherson",
+      "position": "Asst Coach",
+      "email": "miamivalleyexpress2012@gmail.com",
+      "phone": "",
+      "imageUrl": "assets/teams/defaultpfp.jpg"
     }
   ]
 }
