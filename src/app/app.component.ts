@@ -9,8 +9,8 @@ import { FooterComponent } from './components/footer.component';
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
   template: `
     <div class="app-container">
-      <app-header></app-header>
       <main class="content-wrapper">
+        <app-header></app-header>
         <router-outlet></router-outlet>
       </main>
       <app-footer></app-footer>
@@ -21,6 +21,7 @@ import { FooterComponent } from './components/footer.component';
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
   }
   
   .content-wrapper {

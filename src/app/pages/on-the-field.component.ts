@@ -4,14 +4,12 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { DataService } from '../core/services/json-data.service';
 import { BlogPost } from '../models/blog-post.model';
-import { NavigationComponent } from '../components/navigation.component';
 
 @Component({
   selector: 'app-on-the-field',
   standalone: true,
-  imports: [CommonModule, RouterModule, FormsModule, NavigationComponent],
+  imports: [CommonModule, RouterModule, FormsModule],
   template: `
-    <app-navigation></app-navigation>
     <!-- Sticky Header -->
     <div class="sticky top-[48px] z-40 bg-secondary text-white py-4 shadow-md">
       <div class="container mx-auto px-4">
@@ -22,7 +20,9 @@ import { NavigationComponent } from '../components/navigation.component';
     <div class="container mx-auto px-4 py-8">
       <!-- Filter -->
       <div class="mb-8 flex flex-col sm:flex-row justify-center items-center">
-        <label for="seasonFilter" class="mr-2 text-lg mb-2 sm:mb-0">Filter by Season:</label>
+        <label for="seasonFilter" class="mr-2 text-lg mb-2 sm:mb-0"
+          >Filter by Season:</label
+        >
         <select
           id="seasonFilter"
           [(ngModel)]="selectedSeason"
@@ -37,13 +37,19 @@ import { NavigationComponent } from '../components/navigation.component';
       </div>
 
       <!-- Blog post grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+      >
         <a
           *ngFor="let post of displayedPosts"
           [routerLink]="['/on-the-field', post.slug]"
           class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 cursor-pointer"
         >
-          <img [src]="'assets/blog/' + post.image" [alt]="post.title" class="w-full h-48 object-cover" />
+          <img
+            [src]="'assets/blog/' + post.image"
+            [alt]="post.title"
+            class="w-full h-48 object-cover"
+          />
           <div class="p-6">
             <h2 class="text-xl font-semibold mb-2 text-gray-800">
               {{ post.title }}
@@ -70,7 +76,9 @@ import { NavigationComponent } from '../components/navigation.component';
         >
           Previous
         </button>
-        <span class="mx-2 py-2 text-lg font-medium"> Page {{ currentPage }} of {{ totalPages }} </span>
+        <span class="mx-2 py-2 text-lg font-medium">
+          Page {{ currentPage }} of {{ totalPages }}
+        </span>
         <button
           (click)="changePage(1)"
           [disabled]="currentPage === totalPages"
@@ -104,7 +112,9 @@ export class OnTheFieldComponent implements OnInit {
 
   loadBlogPosts() {
     this.dataService.getBlogPosts().subscribe((posts: BlogPost[]) => {
-      this.allPosts = posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+      this.allPosts = posts.sort(
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+      );
       this.seasons = [...new Set(posts.map((post: BlogPost) => post.season))];
       this.filterPosts();
     });
@@ -113,7 +123,9 @@ export class OnTheFieldComponent implements OnInit {
   filterPosts() {
     let filteredPosts = this.allPosts;
     if (this.selectedSeason) {
-      filteredPosts = filteredPosts.filter((post) => post.season === this.selectedSeason);
+      filteredPosts = filteredPosts.filter(
+        (post) => post.season === this.selectedSeason
+      );
     }
     this.totalPages = Math.ceil(filteredPosts.length / this.postsPerPage);
     this.currentPage = 1;
@@ -122,14 +134,21 @@ export class OnTheFieldComponent implements OnInit {
 
   updateDisplayedPosts(posts: BlogPost[]) {
     const startIndex = (this.currentPage - 1) * this.postsPerPage;
-    this.displayedPosts = posts.slice(startIndex, startIndex + this.postsPerPage);
+    this.displayedPosts = posts.slice(
+      startIndex,
+      startIndex + this.postsPerPage
+    );
   }
 
   changePage(direction: number) {
     const newPage = this.currentPage + direction;
     if (newPage >= 1 && newPage <= this.totalPages) {
       this.currentPage = newPage;
-      this.updateDisplayedPosts(this.selectedSeason ? this.allPosts.filter((post) => post.season === this.selectedSeason) : this.allPosts);
+      this.updateDisplayedPosts(
+        this.selectedSeason
+          ? this.allPosts.filter((post) => post.season === this.selectedSeason)
+          : this.allPosts
+      );
     }
   }
 }

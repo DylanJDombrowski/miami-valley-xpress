@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { NavigationComponent } from '../components/navigation.component';
 
 interface Alumni {
   id: string;
@@ -19,11 +18,12 @@ interface Alumni {
 @Component({
   selector: 'app-alumni',
   standalone: true,
-  imports: [CommonModule, NavigationComponent],
+  imports: [CommonModule],
   template: `
-    <app-navigation></app-navigation>
     <!-- Sticky Alumni Header -->
-    <div class="sticky top-0 md:top-[48px] text-left z-40 bg-secondary text-white py-4 shadow-md">
+    <div
+      class="sticky top-0 md:top-[48px] text-left z-40 bg-secondary text-white py-4 shadow-md"
+    >
       <div class="container mx-auto px-4">
         <h1 class="text-2xl md:text-3xl font-bold">Xpress Alumni</h1>
       </div>
@@ -31,24 +31,46 @@ interface Alumni {
 
     <div class="bg-gray-100 min-h-screen">
       <div class="container mx-auto py-8 md:py-12 px-4">
-        <div *ngFor="let gradYearGroup of groupedAlumni | keyvalue" class="mb-12 md:mb-16">
-          <h2 class="text-2xl md:text-3xl font-semibold text-primary mb-6 border-l-4 border-secondary pl-4">Grad Year: {{ gradYearGroup.key }}</h2>
+        <div
+          *ngFor="let gradYearGroup of groupedAlumni | keyvalue"
+          class="mb-12 md:mb-16"
+        >
+          <h2
+            class="text-2xl md:text-3xl font-semibold text-primary mb-6 border-l-4 border-secondary pl-4"
+          >
+            Grad Year: {{ gradYearGroup.key }}
+          </h2>
 
           <!-- Mobile view -->
           <div class="md:hidden">
-            <div *ngFor="let player of gradYearGroup.value" class="bg-white rounded-lg shadow-md overflow-hidden mb-6">
-              <img [src]="getImageUrl(player.imageUrl)" [alt]="player.playerName" class="w-full h-48 object-cover" />
+            <div
+              *ngFor="let player of gradYearGroup.value"
+              class="bg-white rounded-lg shadow-md overflow-hidden mb-6"
+            >
+              <img
+                [src]="getImageUrl(player.imageUrl)"
+                [alt]="player.playerName"
+                class="w-full h-48 object-cover"
+              />
               <div class="p-4">
                 <h3 class="text-xl font-semibold mb-2">
                   {{ player.playerName }}
                 </h3>
                 <p class="text-gray-600 mb-2">{{ player.position }}</p>
                 <div class="flex items-center space-x-2 mb-2">
-                  <img [src]="getImageUrl(player.hsLogoUrl)" alt="High School Logo" class="w-8 h-8 object-contain" />
+                  <img
+                    [src]="getImageUrl(player.hsLogoUrl)"
+                    alt="High School Logo"
+                    class="w-8 h-8 object-contain"
+                  />
                   <span class="text-sm">{{ player.highSchool }}</span>
                 </div>
                 <div class="flex items-center space-x-2">
-                  <img [src]="getImageUrl(player.collegeLogoUrl)" alt="College Logo" class="w-8 h-8 object-contain" />
+                  <img
+                    [src]="getImageUrl(player.collegeLogoUrl)"
+                    alt="College Logo"
+                    class="w-8 h-8 object-contain"
+                  />
                   <span class="text-sm">{{ player.college }}</span>
                 </div>
               </div>
@@ -68,9 +90,16 @@ interface Alumni {
                 </tr>
               </thead>
               <tbody>
-                <tr *ngFor="let player of gradYearGroup.value" class="border-b border-gray-200 hover:bg-gray-50">
+                <tr
+                  *ngFor="let player of gradYearGroup.value"
+                  class="border-b border-gray-200 hover:bg-gray-50"
+                >
                   <td class="py-4 px-4">
-                    <img [src]="getImageUrl(player.imageUrl)" [alt]="player.playerName" class="w-32 h-32 object-cover rounded-lg shadow-md" />
+                    <img
+                      [src]="getImageUrl(player.imageUrl)"
+                      [alt]="player.playerName"
+                      class="w-32 h-32 object-cover rounded-lg shadow-md"
+                    />
                   </td>
                   <td class="py-4 px-4 text-lg font-medium">
                     {{ player.playerName }}
@@ -78,13 +107,21 @@ interface Alumni {
                   <td class="py-4 px-4">{{ player.position }}</td>
                   <td class="py-4 px-4">
                     <div class="flex items-center space-x-3">
-                      <img [src]="getImageUrl(player.hsLogoUrl)" alt="High School Logo" class="w-12 h-12 object-contain" />
+                      <img
+                        [src]="getImageUrl(player.hsLogoUrl)"
+                        alt="High School Logo"
+                        class="w-12 h-12 object-contain"
+                      />
                       <span>{{ player.highSchool }}</span>
                     </div>
                   </td>
                   <td class="py-4 px-4">
                     <div class="flex items-center space-x-3">
-                      <img [src]="getImageUrl(player.collegeLogoUrl)" alt="College Logo" class="w-12 h-12 object-contain" />
+                      <img
+                        [src]="getImageUrl(player.collegeLogoUrl)"
+                        alt="College Logo"
+                        class="w-12 h-12 object-contain"
+                      />
                       <span>{{ player.college }}</span>
                     </div>
                   </td>

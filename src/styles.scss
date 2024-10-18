@@ -51,6 +51,10 @@ $miami-valley-xpress-theme: mat.define-theme((
   --color-text: #333333;
 }
 
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-background);
@@ -63,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   @apply px-4 mx-auto;
-  max-width: 1200px;
+  max-width: 1600px;
 }
 
 /* Button styles */
